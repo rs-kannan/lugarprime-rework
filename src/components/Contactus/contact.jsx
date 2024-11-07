@@ -22,12 +22,14 @@ const ContactUsCard = () => {
   };
 
   return (
+    
     <motion.div
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
       className="max-w-6xl mx-auto bg-white rounded-xl shadow-md overflow-hidden m-4"
     >
+      
       <div className="md:flex">
         {/* Left Column: Contact Information */}
         <div className="md:w-1/2 p-8 bg-gray-50">

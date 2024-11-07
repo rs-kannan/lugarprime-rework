@@ -17,6 +17,18 @@ export default {
           "2xl": "6rem",
         },
       },
+      backgroundSize: {
+        '200%': '200%',
+      },
+      animation: {
+        'gradient-move': 'bg-animation 2s linear infinite',
+      },
+      keyframes: {
+        'bg-animation': {
+          '0%': { 'background-position': '0%' },
+          '100%': { 'background-position': '100%' },
+        },
+      },
     },
   },
   plugins: [],

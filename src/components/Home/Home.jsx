@@ -3,8 +3,8 @@ import Hero from "../Hero/Hero";
 import NumberCounter from "../NumberCounter/NumberCounter";
 import SubjectCard from "../SubjectCard/SubjectCard";
 import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
-import Img2 from "../../assets/banner2.png";
-import BannerImage from '../../assets/Banner.png';
+// import Img2 from "../../assets/banner2.png";
+import BannerImage from '../../assets/Banner.gif';
 
 
 const BannerData = {

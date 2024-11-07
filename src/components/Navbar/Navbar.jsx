@@ -476,25 +476,34 @@ const Navbar = () => {
               <ul className="flex items-center gap-6">
                 {NavbarMenu.map((item) => (
                   <li key={item.id} className="relative group">
-                    {/* Disable cursor action and make it appear inactive */}
-                    <span className="inline-block text-gray-600 text-sm xl:text-base py-1 px-2 xl:px-3 hover:text-secondary transition-all duration-300 font-semibold cursor-default">
-                      {item.title}
-                    </span>
-
-                    {/* Dropdown */}
-                    {item.dropdown && (
-                      <ul className="absolute top-full left-0 mt-2 bg-white shadow-md rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 w-60 max-h-64 overflow-y-auto">
-                        {item.dropdown.map((subItem, index) => (
-                          <li key={index} className="hover:bg-gray-100">
-                            <Link
-                              to={subItem.link}
-                              className="block px-4 py-2 text-sm text-gray-700"
-                            >
-                              {subItem.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
+                    {item.dropdown ? (
+                      <>
+                        {/* Dropdown-triggering item */}
+                        <span className="inline-block text-gray-600 text-sm xl:text-base py-1 px-2 xl:px-3 hover:text-secondary transition-all duration-300 font-semibold cursor-default">
+                          {item.title}
+                        </span>
+                        {/* Dropdown */}
+                        <ul className="absolute top-full left-0 mt-2 bg-white shadow-md rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 w-60 max-h-64 overflow-y-auto">
+                          {item.dropdown.map((subItem, index) => (
+                            <li key={index} className="hover:bg-gray-100">
+                              <Link
+                                to={subItem.link}
+                                className="block px-4 py-2 text-sm text-gray-700"
+                              >
+                                {subItem.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      </>
+                    ) : (
+                      // Direct navigation item for Home, About Us, and Contact Us
+                      <Link
+                        to={item.link}
+                        className="inline-block text-gray-600 text-sm xl:text-base py-1 px-2 xl:px-3 hover:text-secondary transition-all duration-300 font-semibold"
+                      >
+                        {item.title}
+                      </Link>
                     )}
                   </li>
                 ))}
@@ -502,13 +511,13 @@ const Navbar = () => {
             </div>
 
             {/* CTA Button section */}
-            <div className="hidden lg:block space-x-6">
+            {/* <div className="hidden lg:block space-x-6">
               <a href="https://wa.me/918825827613" target="_blank" rel="noopener noreferrer">
                 <button className="text-white bg-secondary font-semibold rounded-full px-6 py-2">
                   Connect Now
                 </button>
               </a>
-            </div>
+            </div> */}
 
             {/* Mobile Hamburger Menu */}
             <div className="lg:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -519,8 +528,9 @@ const Navbar = () => {
       </motion.div>
 
       {/* Mobile Sidebar section */}
-      <ResponsiveMenu isOpen={isOpen} setIsOpen={setIsOpen} />
-    </>
+      <ResponsiveMenu isOpen={isOpen} setIsOpen={setIsOpen} />
+    </>
+
   );
 };
 

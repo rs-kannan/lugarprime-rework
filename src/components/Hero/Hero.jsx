@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import { SlideRight } from "../../utility/animation";
 import HeroImg from "../../assets/hero.png";
 // import dev from "../../assets/hibanner.mp4";
-import Web from "../../assets/Web.mp4"
+import Web from "../../assets/hb.mp4"
 const Hero = () => {
   const settings = {
     dots: false,
