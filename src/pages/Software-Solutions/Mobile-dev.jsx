@@ -3,26 +3,27 @@ import { Code, Layout, Smartphone, Globe, ChevronRight } from "lucide-react";
 
 const services = [
   {
-    icon: <Code className="w-12 h-12 text-primary" />,
-    title: "Custom Web Development",
-    description: "Tailored solutions to meet your unique business needs",
+    icon: <Code className="w-12 h-12 text-secondary" />,
+    title: "Custom Development",
+    description: "Building custom software tailored to meet your business needs.",
   },
   {
-    icon: <Layout className="w-12 h-12 text-primary" />,
-    title: "Responsive Design",
-    description: "Websites that look great on any device",
+    icon: <Layout className="w-12 h-12 text-secondary" />,
+    title: "Responsive & Faster",
+    description: "Creating responsive designs that load quickly on any device.",
   },
   {
-    icon: <Smartphone className="w-12 h-12 text-primary" />,
-    title: "Mobile-First Approach",
-    description: "Optimized for the growing mobile user base",
+    icon: <Smartphone className="w-12 h-12 text-secondary" />,
+    title: "Android App",
+    description: "Developing Android apps that engage mobile users.",
   },
   {
-    icon: <Globe className="w-12 h-12 text-primary" />,
-    title: "E-commerce Solutions",
-    description: "Powerful online stores to boost your sales",
+    icon: <Globe className="w-12 h-12 text-secondary" />,
+    title: "iOS App",
+    description: "Crafting powerful iOS apps that enhance user experience.",
   },
 ];
+
 
 function Mobiledev() {
   return (
@@ -102,7 +103,7 @@ function Mobiledev() {
         </div>
       </section>
       {/* Section-One-Starts-Here */}
-      <section>
+      <section className="pt-20">
         {/* Container */}
         <div className="mx-auto w-full max-w-7xl px-5 py-16 md:py-20">
           {/* Component */}
@@ -126,11 +127,11 @@ function Mobiledev() {
                     </svg>
                   </div>
                   <p className="max-w-xs text-gray-500 md:max-w-[256px]">
-                    Say goodbye to payment headaches with SecurePay!
+                  Build apps that work seamlessly across Android and iOS devices.
                   </p>
                 </div>
-                <h3 className="text-2xl font-bold md:text-3xl">
-                  Maximize Productivity. Organize Your Time.
+                <h3 className="text-2xl font-bold md:text-3xl  text-red-500">
+                Cross-Platform Development.
                 </h3>
               </div>
               <div className="flex flex-col gap-4">
@@ -150,11 +151,11 @@ function Mobiledev() {
                     </svg>
                   </div>
                   <p className="max-w-xs text-gray-500 md:max-w-[256px]">
-                    Say goodbye to payment headaches with SecurePay!
+                  Create high-performance apps tailored for either Android or iOS.
                   </p>
                 </div>
-                <h3 className="text-2xl font-bold md:text-3xl">
-                  Maximize Productivity. Organize Your Time.
+                <h3 className="text-2xl font-bold md:text-3xl  text-red-500">
+                Native App Development.
                 </h3>
               </div>
             </div>
@@ -185,11 +186,11 @@ function Mobiledev() {
                     </svg>
                   </div>
                   <p className="max-w-xs text-gray-500 md:max-w-[256px] md:text-right">
-                    Say goodbye to payment headaches with SecurePay!
+                  Design intuitive, engaging mobile interfaces for an exceptional user experience.
                   </p>
                 </div>
-                <h3 className="text-2xl font-bold md:text-right md:text-3xl">
-                  Maximize Productivity. Organize Your Time.
+                <h3 className="text-2xl font-bold md:text-right md:text-3xl  text-red-500">
+                UI/UX Design for Mobile
                 </h3>
               </div>
               <div className="flex flex-col gap-4 md:items-end">
@@ -209,11 +210,11 @@ function Mobiledev() {
                     </svg>
                   </div>
                   <p className="max-w-xs text-gray-500 md:max-w-[256px] md:text-right">
-                    Say goodbye to payment headaches with SecurePay!
+                   Provide ongoing updates and support to ensure peak app performance.
                   </p>
                 </div>
-                <h3 className="text-2xl font-bold md:text-right md:text-3xl">
-                  Maximize Productivity. Organize Your Time.
+                <h3 className="text-2xl font-bold md:text-right md:text-3xl text-red-500">
+                Maintenance & Support
                 </h3>
               </div>
             </div>
@@ -241,10 +242,9 @@ function Mobiledev() {
                 alt=""
                 className="inline-block h-16 w-16 rounded-full object-cover"
               />
-              <p className="text-xl font-semibold">Support</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              <p className="text-xl font-semibold text-blue-700"> Hybrid Development</p>
+              <p className="text-center text-sm ">
+              Hybrid apps are often created using standard web technologies like HTML, CSS, and JavaScript, which are then packaged into a native container to run on both Android and iOS.
               </p>
             </li>
             <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
@@ -253,10 +253,9 @@ function Mobiledev() {
                 alt=""
                 className="inline-block h-16 w-16 rounded-full object-cover"
               />
-              <p className="text-xl font-semibold">Organise</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              <p className="text-xl font-semibold text-blue-700">Progressive Web App</p>
+              <p className="text-center text-sm ">
+              JavaScript: PWAs are web-based and built with JavaScript along with frameworks and libraries like Angular, React, or Vue to create app-like experiences.
               </p>
             </li>
             <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
@@ -265,10 +264,9 @@ function Mobiledev() {
                 alt=""
                 className="inline-block h-16 w-16 rounded-full object-cover"
               />
-              <p className="text-xl font-semibold">Flexibility</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              <p className="text-xl font-semibold text-blue-700">Cross Platform </p>
+              <p className="text-center text-sm ">
+              Dart (Flutter) The language for Google’s Flutter framework, used to build apps for both iOS and Android with a single codebase.
               </p>
             </li>
             <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
@@ -277,10 +275,9 @@ function Mobiledev() {
                 alt=""
                 className="inline-block h-16 w-16 rounded-full object-cover"
               />
-              <p className="text-xl font-semibold">Speed</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
+              <p className="text-xl font-semibold text-blue-700">Native Development</p>
+              <p className="text-center text-sm ">
+              Swift (iOS) The primary language for iOS app development, designed by Apple for building efficient and safe applications.
               </p>
             </li>
           </ul>
@@ -366,12 +363,16 @@ function Mobiledev() {
                 </div>
 
                 <div>
-                  <h3 className="text-lg font-semibold mb-4">
-                    Here is the title for this section
+                  <h3 className="text-lg font-semibold mb-4 text-red-500">
+                  1. Planning and Research
                   </h3>
-                  <p className="text-gray-500 max-w-md">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore.
+                  <p className=" max-w-md">
+                    <ul className="list-disc pl-5">
+                      <li>Objective Setting: Define the app’s purpose, target audience, key features, and overall goals.</li>
+                      <li>Market Research: Analyze competitors, trends, and user expectations to inform app design and functionality.</li>
+                      <li>Platform and Technology Selection: Decide whether to develop natively, use a cross-platform framework, or create a Progressive Web App (PWA).</li>
+                      <li>Roadmap and Timeline: Establish a timeline with milestones and assign resources to ensure efficient development.</li>
+                    </ul>
                   </p>
                 </div>
               </div>
@@ -401,12 +402,11 @@ function Mobiledev() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-4">
-                  Here is the title for this section
+                <h3 className="text-lg font-semibold mb-4 text-red-500">
+                2. UI/UX Design
                 </h3>
-                <p className="text-gray-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore.
+                <p className="">
+                UI Elements: Design graphics, icons, and animations, making sure the design is consistent with the brand and platform guidelines.
                 </p>
               </div>
             </div>
@@ -426,12 +426,11 @@ function Mobiledev() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-4">
-                  Here is the title for this section
+                <h3 className="text-lg font-semibold mb-4 text-red-500">
+                3.Development
                 </h3>
-                <p className="text-gray-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore.
+                <p className="">
+                Front-End Development, Back-End Development, Integration and Feature Implementation
                 </p>
               </div>
             </div>
@@ -453,12 +452,12 @@ function Mobiledev() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-4">
-                  Here is the title for this section
+                <h3 className="text-lg font-semibold mb-4 text-red-500">
+               Testing and Quality Assurance (QA)
                 </h3>
-                <p className="text-gray-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore.
+                <p className="0">
+                               Security and Compliance Testing: Ensure that data is protected, and that the app meets any regulatory requirements (e.g., GDPR for data privacy).
+
                 </p>
               </div>
             </div>
@@ -478,12 +477,11 @@ function Mobiledev() {
                 </svg>
               </div>
               <div>
-                <h3 className="text-lg font-semibold mb-4">
-                  Here is the title for this section
+                <h3 className="text-lg font-semibold mb-4 text-red-500">
+                5. Deployment and Maintenance
                 </h3>
-                <p className="text-gray-500">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore.
+                <p className="">
+                  App Store Submission: Submit the app to app stores (Google Play for Android and the App Store for iOS) and comply with their submission guidelines.
                 </p>
               </div>
             </div>
