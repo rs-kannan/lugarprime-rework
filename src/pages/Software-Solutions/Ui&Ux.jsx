@@ -2,30 +2,53 @@ import { Code, Layout, Smartphone, Globe, ChevronRight } from "lucide-react";
 
 const services = [
   {
-    icon: <Code className="w-12 h-12 text-primary" />,
-    title: "Custom Web Development",
-    description: "Tailored solutions to meet your unique business needs",
+    icon: <Code className="w-12 h-12 text-pink-600" />,
+    title: "User-Centric Design",
+    description: "Crafting intuitive, visually appealing interfaces that prioritize user experience and ease of navigation.",
   },
   {
-    icon: <Layout className="w-12 h-12 text-primary" />,
-    title: "Responsive Design",
-    description: "Websites that look great on any device",
+    icon: <Layout className="w-12 h-12 text-pink-600" />,
+    title: "Responsive & Accessible Design",
+    description: "Creating designs that are optimized for all devices and adhere to accessibility standards to ensure inclusivity.",
   },
   {
-    icon: <Smartphone className="w-12 h-12 text-primary" />,
-    title: "Mobile-First Approach",
-    description: "Optimized for the growing mobile user base",
+    icon: <Smartphone className="w-12 h-12 text-pink-600" />,
+    title: "Prototyping & Wireframing",
+    description: "Developing interactive prototypes and wireframes to visualize and refine ideas before full-scale implementation.",
   },
   {
-    icon: <Globe className="w-12 h-12 text-primary" />,
-    title: "E-commerce Solutions",
-    description: "Powerful online stores to boost your sales",
+    icon: <Globe className="w-12 h-12 text-pink-600" />,
+    title: "Usability Testing & Optimization",
+    description: "Conducting rigorous usability tests to gather user feedback and iterating designs for maximum effectiveness and satisfaction.",
   },
 ];
 function UiUx() {
   return (
     <div className="py-20">
-       <section className="py-40 bg-gradient-to-r from-red-500 to-blue-900 text-primary-foreground">
+      {/* <section
+  className="py-40 bg-[url('../../src/assets/uiux-lp.png')] bg-cover bg-center text-primary-foreground"
+>
+  <div className="container mx-auto px-4">
+    <div className="md:flex md:items-center md:justify-between">
+      <div className="md:w-1/2 mb-10 md:mb-0">
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+          Expert Web Development Solutions
+        </h1>
+        <p className="text-xl mb-8">
+          We create stunning, high-performance websites that drive results for your business.
+        </p>
+        <button className="bg-background text-foreground px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
+          Get Started
+        </button>
+      </div>
+      <div className="md:w-1/2">
+        <img src="../../src/assets/uiux-banner.png" alt="Web Development" />
+      </div>
+    </div>
+  </div>
+</section> */}
+
+       {/* <section className="py-40 bg-gradient-to-r from-red-500 to-blue-900 text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="md:flex md:items-center md:justify-between">
               <div className="md:w-1/2 mb-10 md:mb-0">
@@ -40,9 +63,30 @@ function UiUx() {
               </div>
             </div>
           </div>
-        </section>
-
-        {/* Our Service */}
+        </section> */}
+      {/* Section-one-start-Here */}
+      <main>
+       <section
+      className="min-h-screen bg-[url('../../src/assets/uiux01.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-6 lg:px-8"
+    >
+      <div className="text-center">
+        <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-transparent bg-clip-text 
+             bg-gradient-to-r from-white via-red-00 to-white bg-[0%] animate-gradient-move font-mono">
+          UI & UX Development 
+        </h1>
+        <p className="text-base sm:text-lg md:text-xl mb-8">
+          {/* We create stunning, high-performance websites that drive results for your business. */}
+        </p>
+        {/* <button className="bg-background text-foreground px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
+          Get Started
+        </button> */}
+      </div>
+       </section>
+     </main>
+      {/* Section-one-End-Here */}
+      {/* space-top div */}
+<div className="py-20"></div>
+      {/* Our Service */}
         <section className="py-20">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">
@@ -64,151 +108,11 @@ function UiUx() {
             </div>
           </div>
         </section>
-
-      {/* Section-one-start-Here */}
-      <header>
-        {/* Hero Container */}
-        <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
-          {/* Component */}
-          <div className="flex flex-col gap-8 sm:gap-16 lg:flex-row">
-            {/* Hero Image */}
-            <img
-              src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-              alt=""
-              className="inline-block h-full w-full max-w-2xl lg:max-w-xl"
-            />
-            {/* Hero Content */}
-            <div className="flex flex-col items-start">
-              {/* Hero Title */}
-              <p className="mb-2 text-sm font-semibold uppercase">
-                a trusted digital agency
-              </p>
-              <h1
-                className="mb-4 text-4xl font-bold md:text-6xl inline-block text-transparent bg-clip-text 
-             bg-gradient-to-r from-blue-800 via-red-500 to-blue-800 bg-200% animate-gradient-move"
-              >
-                UI & UX
-              </h1>
-
-              <p className="mb-6 max-w-lg text-sm text-gray-500 sm:text-xl md:mb-10 lg:mb-12">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit amet luctus venenatis, lectus
-              </p>
-              {/* Hero Form */}
-              <div className="mb-5 w-full pb-8 md:mb-6 lg:mb-4">
-                <form
-                  name="email-form"
-                  method="get"
-                  className="flex max-w-md flex-col items-start"
-                >
-                  <input
-                    type="email"
-                    className="mb-5 mr-6 h-9 w-full rounded-md border-gray-300 bg-gray-50 px-6 py-7 text-sm text-gray-500 placeholder:text-gray-500"
-                    placeholder="Enter your email"
-                    required=""
-                  />
-                  <input
-                    type="submit"
-                    value="Subscribe"
-                    className="inline-block w-full cursor-pointer rounded-md bg-black px-8 py-4 text-center font-semibold text-white"
-                  />
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-      {/* Section-one-End-Here */}
-      {/* Section-Two-start-Here */}
-      <section>
-        {/* Container */}
-        <div className="mx-auto w-full px-5 py-12 md:px-10 md:py-16 lg:py-20">
-          {/* Heading */}
-          <h2 className="mx-auto mb-12 text-center text-3xl font-extrabold md:mb-20 md:text-5xl">
-            What we offer
-          </h2>
-          {/* How it Works */}
-          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-6">
-            {/* Item */}
-            <div className="flex flex-row items-center gap-6 rounded-[60px] border border-solid bg-gray-100 px-6 py-4 transition hover:bg-black hover:text-white">
-              <div className="flex h-20 w-20 flex-none flex-col items-center justify-center rounded-full bg-white">
-                <img
-                  src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a274_CodepenLogo.svg"
-                  alt="Get Started Icon 1"
-                  className="inline-block"
-                />
-              </div>
-              <div className="flex flex-col items-start gap-2.5">
-                <h5 className="text-base font-bold md:text-xl">
-                  Download the app
-                </h5>
-                <p className=" text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam, purus sit amet dolor sit amet consectetur adipiscing
-                </p>
-              </div>
-            </div>
-            {/* Item */}
-            <div className="flex flex-row items-center gap-6 rounded-[60px] border border-solid bg-gray-100 px-6 py-4 transition hover:bg-black hover:text-white">
-              <div className="flex h-20 w-20 flex-none flex-col items-center justify-center rounded-full bg-white">
-                <img
-                  src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a28e_GitlabLogo.svg"
-                  alt="Get Started Icon 2"
-                  className="inline-block"
-                />
-              </div>
-              <div className="flex flex-col items-start gap-2.5">
-                <h5 className="text-base font-bold md:text-xl">
-                  Sign up for account
-                </h5>
-                <p className=" text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam, purus sit amet dolor sit amet consectetur adipiscing
-                </p>
-              </div>
-            </div>
-            {/* Item */}
-            <div className="flex flex-row items-center gap-6 rounded-[60px] border border-solid bg-gray-100 px-6 py-4 transition hover:bg-black hover:text-white">
-              <div className="flex h-20 w-20 flex-none flex-col items-center justify-center rounded-full bg-white">
-                <img
-                  src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a274_CodepenLogo.svg"
-                  alt="Get Started Icon 3"
-                  className="inline-block"
-                />
-              </div>
-              <div className="flex flex-col items-start gap-2.5">
-                <h5 className="text-base font-bold md:text-xl">
-                  Activate virtual card
-                </h5>
-                <p className=" text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam, purus sit amet dolor sit amet consectetur adipiscing
-                </p>
-              </div>
-            </div>
-            {/* Item */}
-            <div className="flex flex-row items-center gap-6 rounded-[60px] border border-solid bg-gray-100 px-6 py-4 transition hover:bg-black hover:text-white">
-              <div className="flex h-20 w-20 flex-none flex-col items-center justify-center rounded-full bg-white">
-                <img
-                  src="https://assets.website-files.com/646f65e37fe0275cfb808405/646f66cdeeb4ddfdae25a28e_GitlabLogo.svg"
-                  alt="Get Started Icon 4"
-                  className="inline-block"
-                />
-              </div>
-              <div className="flex flex-col items-start gap-2.5">
-                <h5 className="text-base font-bold md:text-xl">
-                  Ready set go!
-                </h5>
-                <p className=" text-gray-500">
-                  Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                  aliquam, purus sit amet dolor sit amet consectetur adipiscing
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Section-Two-End-Here */}
+      {/* Section-Five-start-Here */}
+    
+      {/* Section-five-end-Here */}
+      {/* space-top div */}
+<div className="py-20"></div>
       {/* Section-Three-start-Here */}
       <section>
         {/* Container */}
@@ -279,8 +183,8 @@ function UiUx() {
                 </svg>
               </div>
               <div className="ml-4">
-                <p className="text-lg font-semibold">
-                  Sign up effortlessly in just 2 minutes
+                <p className="text-lg font-semibold text-red-500">
+                Research & Strategy
                 </p>
               </div>
               <div className="absolute top-0 right-10 bg-white border-2 border-gray-100 rounded-full h-8 w-8 flex items-center justify-center -mt-4 -mr-4">
@@ -347,8 +251,8 @@ function UiUx() {
                 </svg>
               </div>
               <div className="ml-4">
-                <p className="text-lg font-semibold">
-                  Submit as many tasks as you like
+                <p className="text-lg font-semibold text-blue-500">
+                Design & Prototyping
                 </p>
               </div>
               <div className="absolute top-0 right-10 bg-white border-2 border-gray-100 rounded-full h-8 w-8 flex items-center justify-center -mt-4 -mr-4">
@@ -415,8 +319,8 @@ function UiUx() {
                 </svg>
               </div>
               <div className="ml-4">
-                <p className="text-lg font-semibold">
-                  Receive your first task done in 24 hours
+                <p className="text-lg font-semibold text-green-500">
+                  Testing & Iteration
                 </p>
               </div>
               <div className="absolute top-0 right-10 bg-white border-2 border-gray-100 rounded-full h-8 w-8 flex items-center justify-center -mt-4 -mr-4">
@@ -427,219 +331,207 @@ function UiUx() {
         </div>
       </section>
       {/* Section-Three-End-Here */}
-      {/* Section-Four-start-Here */}
-      <section>
-        {/* Container */}
-        <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
-          {/* Title */}
-          <h2 className="items-center text-center text-3xl font-bold md:text-5xl">
-            ui ux development technologies
-          </h2>
-          <p className="mx-auto mb-8 mt-4 max-w-lg text-center text-sm text-gray-500 sm:text-base md:mb-12">
-            Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-            aliquam,purus sit amet luctus magna fringilla urna
-          </p>
-          {/* List */}
-          <ul className="grid gap-5 sm:grid-cols-2 md:grid-cols-4 md:gap-0">
-            <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
-              <p className="text-xl font-semibold">Support</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </li>
-            <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
-              <p className="text-xl font-semibold">Organise</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </li>
-            <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
-              <p className="text-xl font-semibold">Flexibility</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </li>
-            <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
-              <p className="text-xl font-semibold">Speed</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </li>
-          </ul>
-          <ul className="grid gap-5 sm:grid-cols-2 md:grid-cols-4 md:gap-0">
-            <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
-              <p className="text-xl font-semibold">Support</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </li>
-            <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
-              <p className="text-xl font-semibold">Organise</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </li>
-            <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
-              <p className="text-xl font-semibold">Flexibility</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </li>
-            <li className="flex flex-col items-center gap-6 md:border-r md:px-10 md:py-4 p-8 md:border-gray-300">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
-              <p className="text-xl font-semibold">Speed</p>
-              <p className="text-center text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      {/* Section-Four-End-Here */}
-      {/* Section-Five-start-Here */}
-      <section>
-        {/* Container */}
-        <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
-          {/* Title */}
-          <div className="flex flex-col items-center text-center">
-            <h2 className="text-3xl font-bold md:text-5xl">Why Choose Us</h2>
-            <p className="mb-8 mt-4 max-w-xl text-base text-gray-500 md:mb-12 md:text-lg lg:mb-16">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam,
-              purus sit amet luctus magna fringilla urna
-            </p>
-          </div>
-          {/* Features Content */}
-          <div className="grid gap-5 sm:grid-cols-2 md:grid-cols-3 md:gap-4 lg:gap-6">
-            {/* Features Item */}
-            <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
-              />
-              <h3 className="text-xl font-semibold">Support</h3>
-              <p className="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </div>
-            {/* Features Item */}
-            <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
-              />
-              <h3 className="text-xl font-semibold">Organise</h3>
-              <p className="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </div>
-            {/* Features Item */}
-            <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
-              />
-              <h3 className="text-xl font-semibold">Flexibility</h3>
-              <p className="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </div>
-            {/* Features Item */}
-            <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
-              />
-              <h3 className="text-xl font-semibold">Speed</h3>
-              <p className="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </div>
-            {/* Features Item */}
-            <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
-              />
-              <h3 className="text-xl font-semibold">Quality</h3>
-              <p className="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </div>
-            {/* Features Item */}
-            <div className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10">
-              <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                alt=""
-                className="inline-block h-16 w-16 object-cover rounded-full "
-              />
-              <h3 className="text-xl font-semibold">Resource</h3>
-              <p className="text-sm text-gray-500">
-                Lorem ipsum dolor sit amet consectetur adipiscing elit ut
-                aliquam, purus sit.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/* Section-five-end-Here */}
+      {/* space-top div */}
+<div className="py-20"></div>
       {/* Section-Six-start-Here */}
+      <section className=" text-gray-100 pt-40">
+	<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+		<div>
+			<h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-900">UI UX Development</h2>
+			<p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-600"></p>
+		</div>
+		<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+			<div>
+				<h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-gray-900">what is UI & UX ?</h3>
+				<p className="mt-3 text-lg text-gray-600">UI/UX development involves creating user-friendly digital experiences by designing intuitive interfaces (UI) and optimizing user interactions (UX) to ensure functionality, accessibility, and satisfaction.</p>
+				<div className="mt-12 space-y-12">
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leading-6 text-gray-900"> User Interface (UI) Design</h4>
+							<p className="mt-2 text-gray-600">UI design focuses on the visual aspects of a product, including layout, typography, colors, and elements like buttons and menus. The goal is to create aesthetically pleasing and consistent designs that enhance usability and reflect the brand identity.</p>
+						</div>
+					</div>
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leading-6 text-gray-900">User Experience (UX) Design</h4>
+							<p className="mt-2 text-gray-600">UX design emphasizes user interaction, ensuring smooth and intuitive navigation. It involves understanding user behavior, solving pain points, and creating seamless journeys that meet user needs while achieving business objectives.</p>
+						</div>
+					</div>
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leading-6 text-gray-900">Development & Implementation</h4>
+							<p className="mt-2 text-gray-600">This stage involves translating designs into functional products using front-end and back-end technologies. It ensures responsiveness, performance optimization, and adherence to usability standards, delivering a polished and accessible experience across devices.
+</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div aria-hidden="true" className="mt-10 lg:mt-0">
+				<img src="https://brandemic.in/wp-content/uploads/2024/08/neumorphism-vs-glassmorphism-ui-design-brandemic.webp" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
+			</div>
+		</div>
+		<div>
+			<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+				<div className="lg:col-start-2">
+					<h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-gray-900">Our Solution</h3>
+					<p className="mt-3 text-lg text-gray-400">Our UI/UX development solutions provide tailored digital experiences by combining innovative design with user-centered functionality. We deliver scalable, accessible, and visually stunning interfaces that drive engagement and business growth.</p>
+					<div className="mt-12 space-y-12">
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leading-6 text-gray-900">Custom UI/UX Design Solutions</h4>
+								<p className="mt-2 text-gray-600">We craft personalized designs that align with your brand identity and target audience. From unique layouts to innovative features, our solutions are tailored to reflect your vision while enhancing user satisfaction and loyalty.</p>
+							</div>
+						</div>
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leading-6 text-gray-900">Cross-Platform Design</h4>
+								<p className="mt-2 text-gray-600">Our solutions ensure a consistent and responsive experience across devices, including desktops, tablets, and mobiles. By optimizing designs for all screen sizes, we help you reach and engage users seamlessly across multiple platforms.</p>
+							</div>
+						</div>
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leading-6 text-gray-900">Usability Enhancement</h4>
+								<p className="mt-2 text-gray-600">We focus on simplifying user interactions by identifying pain points and eliminating friction in navigation. Our designs enhance usability through intuitive layouts, meaningful feedback, and accessibility compliance to maximize user engagement and retention.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
+					<img src="https://i.pinimg.com/736x/4b/3e/ea/4b3eea22e3967711f384ba0b776baa73.jpg" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
+				</div>
+			</div>
+		</div>
+	</div>
+      </section>
+      {/* space-top div */}
+<div className="py-20"></div>
+      {/* What we offer  */}
+      <section>
+        {/* Container */}
+        <div className="mx-auto w-full px-5 py-12 md:px-10 md:py-16 lg:py-20">
+          {/* Heading */}
+          <h2 className="mx-auto mb-12 text-center text-3xl font-extrabold md:mb-20 md:text-5xl text-blue-500">
+            What we offer
+          </h2>
+          {/* How it Works */}
+          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-6">
+            {/* Item */}
+            <div className="flex flex-row items-center gap-6 rounded-[80px] border border-solid  b px-6 py-4 transition border-blue-500 hover:bg-red-500 hover:text-white">
+              <div className="flex h-20 w-20 flex-none flex-col items-center justify-center rounded-full bg-white">
+                <img
+                  src="https://media.istockphoto.com/id/1337566752/vector/mass-customization-vector-line-icon-customisation-concept-flat-design.jpg?s=612x612&w=0&k=20&c=qb-umUPRqZLfCqw-ZuxKy_QVj7LguN9RDdXsLiZSPW4="
+                  alt="Get Started Icon 1"
+                  className="inline-block"
+                />
+              </div>
+              <div className="flex flex-col items-start gap-2.5">
+                <h5 className="text-base font-bold md:text-xl">
+                Custom UI/UX Design
+                </h5>
+                <p className=" text-gray-800 hover:text-white">
+                Tailored designs that reflect your brand identity and resonate with your target audience.
+                </p>
+              </div>
+            </div>
+            {/* Item */}
+            <div className="flex flex-row items-center gap-6 rounded-[60px] border border-solid  px-6 py-4 transition border-blue-500 hover:bg-red-500 hover:text-white">
+              <div className="flex h-20 w-20 flex-none flex-col items-center justify-center  bg-white">
+                <img
+                  src="https://png.pngtree.com/png-clipart/20230923/original/pngtree-modern-flat-responsive-web-design-icon-with-laptop-and-smartphone-vector-png-image_12556646.png"
+                  alt="Get Started Icon 2"
+                  className="inline-block"
+                />
+              </div>
+              <div className="flex flex-col items-start gap-2.5">
+                <h5 className="text-base font-bold md:text-xl">
+                Responsive & Adaptive Solutions
+                </h5>
+                <p className=" text-gray-500 hover:text-white">
+                Designs optimized for all devices and screen sizes, ensuring seamless user experiences.
+                </p>
+              </div>
+            </div>
+            {/* Item */}
+            <div className="flex flex-row items-center gap-6 rounded-[60px] border border-solid  px-6 py-4 transition border-blue-500 hover:bg-red-500 hover:text-white">
+              <div className="flex h-20 w-20 flex-none flex-col items-center justify-center  bg-white">
+                <img
+                  src="https://w7.pngwing.com/pngs/182/135/png-transparent-computer-icons-test-icon-design-symbol-symbol-miscellaneous-angle-text.png"
+                  alt="Get Started Icon 3"
+                  className="inline-block"
+                />
+              </div>
+              <div className="flex flex-col items-start gap-2.5">
+                <h5 className="text-base font-bold md:text-xl">
+                Prototyping & Testing
+                </h5>
+                <p className=" text-gray-500 hover:text-white">
+                Comprehensive usability testing to identify and resolve pain points before deployment.
+                </p>
+              </div>
+            </div>
+            {/* Item */}
+            <div className="flex flex-row items-center gap-6 rounded-[60px] border border-solid  px-6 py-4 transition border-blue-500 hover:bg-red-500 hover:text-white">
+              <div className="flex h-20 w-20 flex-none flex-col items-center justify-center  bg-white">
+                <img
+                  src="https://png.pngtree.com/png-clipart/20230915/original/pngtree-monochrome-optimization-method-icon-for-web-design-and-infographics-vector-png-image_12221098.png"
+                  alt="Get Started Icon 4"
+                  className="inline-block"
+                />
+              </div>
+              <div className="flex flex-col items-start gap-2.5">
+                <h5 className="text-base font-bold md:text-xl">
+                Continuous Optimization
+                </h5>
+                <p className=" text-gray-500 hover:text-white">
+                Enhancing user interfaces to stay aligned with evolving trends and user expectations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

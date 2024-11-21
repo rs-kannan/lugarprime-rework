@@ -16,7 +16,7 @@ export const NavbarMenu = [
         technologies: ["HTML", "CSS", "JavaScript", "React"],
       },
       {
-        title: "Mobile Development",
+        title: "Mobile App Development",
         link: "/services/mobile-development",
         description: "Top Mobile Development Services",
         technologies: ["Kotlin", "Swift", "React Native"],
@@ -99,23 +99,17 @@ export const NavbarMenu = [
     title: "Business Consulting",
     link: "#",
     dropdown: [
-      {
-        title: "Education",
-        link: "/services/business-consulting/Education",
-        description: "Top Web Development Services",
-        technologies: ["HTML", "CSS", "JavaScript", "React"],
-      },
-      {
-        title: "Financail",
-        link: "/services/business-consulting/Financial",
-        description: "Top Mobile Development Services",
-        technologies: ["Kotlin", "Swift", "React Native"],
-      },
+      
       {
         title: "Human Resourse (HR)",
         link: "/services/business-consulting/Human-resource",
         description: "User-friendly UI/UX design services",
         technologies: ["Figma", "Adobe XD"],
+      },{
+        title: "Financial",
+        link: "/services/business-consulting/Financial",
+        description: "Top Mobile Development Services",
+        technologies: ["Kotlin", "Swift", "React Native"],
       },
       {
         title: "Management",
@@ -135,6 +129,12 @@ export const NavbarMenu = [
         description: "User-friendly UI/UX design services",
         technologies: ["Figma", "Adobe XD"],
       },
+      {
+        title: "Education",
+        link: "/services/business-consulting/Education",
+        description: "Top Web Development Services",
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
+      },
     ],
   },
   {
@@ -150,6 +150,6 @@ export const NavbarMenu = [
   {
     id: 7,
     title: "Contact Us",
-    link: "/contact-us",
+    link: "/contact",
   },
 ];

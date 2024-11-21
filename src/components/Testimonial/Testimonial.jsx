@@ -5,7 +5,7 @@ const TestimonialsData = [
   {
     id: 1,
     name: "John Doe",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    text: "This web development team turned our ideas into a beautiful, high-functioning website that our users love. Their expertise, attention to detail, and constant communication made the process smooth and enjoyable. The end result exceeded our expectations, and we've already seen a boost in engagement. Highly recommend for any web project!",
     img: "https://picsum.photos/101/101",
     delay: 0.2,
   },
@@ -156,18 +156,17 @@ const Testimonial = () => {
               />
             </div>
             <div className="text-gray-500">
-              “Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit amet
-              luctus venenatis elit ut aliquam, purus sit amet luctus venenatis"
+              “This web development team turned our ideas into a beautiful, high-functioning website that our users love. Their expertise, attention to detail, and constant communication made the process smooth and enjoyable. The end result exceeded our expectations, and we've already seen a boost in engagement. Highly recommend for any web project!"
             </div>
             <div className="flex flex-row items-start">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://static-00.iconduck.com/assets.00/india-icon-512x366-r02huml4.png"
                 alt=""
                 className="mr-4 inline-block h-16 w-16 object-cover rounded-full"
               />
               <div className="flex flex-col items-start">
-                <h6 className="text-base font-bold">Laila Bahar</h6>
-                <p className="text-sm text-gray-500">Designer</p>
+                <h6 className="text-base font-bold">SATHIYA PRAKESH</h6>
+                <p className="text-sm text-gray-500">INDIA</p>
               </div>
             </div>
           </div>
@@ -201,18 +200,17 @@ const Testimonial = () => {
               />
             </div>
             <div className="text-gray-500">
-              “Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit amet
-              luctus venenatis elit ut aliquam, purus sit amet luctus venenatis"
+              “LugarPrime is a forward-thinking digital marketing agency, offering tailored strategies that drive results. With a strong focus on data-driven solutions, they excel in SEO, social media, and content marketing, effectively boosting online visibility and engagement. Their dedicated team ensures client satisfaction, making LugarPrime a reliable partner for digital growth."
             </div>
             <div className="flex flex-row items-start">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://static-00.iconduck.com/assets.00/india-icon-512x366-r02huml4.png"
                 alt=""
                 className="mr-4 inline-block h-16 w-16 object-cover rounded-full"
               />
               <div className="flex flex-col items-start">
-                <h6 className="text-base font-bold">Laila Bahar</h6>
-                <p className="text-sm text-gray-500">Designer</p>
+                <h6 className="text-base font-bold">ANU</h6>
+                <p className="text-sm text-gray-500">INDIA</p>
               </div>
             </div>
           </div>
@@ -246,28 +244,27 @@ const Testimonial = () => {
               />
             </div>
             <div className="text-gray-500">
-              “Lorem ipsum dolor sit amet, &nbsp;elit ut aliquam, purus sit amet
-              luctus venenatis elit ut aliquam, purus sit amet luctus venenatis"
+              “LugarPrime provides excellent business consulting services with a focus on strategic growth and operational efficiency. Their team combines deep industry knowledge with innovative solutions, helping businesses streamline processes and achieve measurable results. LugarPrime’s commitment to client success and personalized approach makes them a top choice for companies aiming to excel in their markets."
             </div>
             <div className="flex flex-row items-start">
               <img
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+                src="https://cdn-icons-png.flaticon.com/512/197/197374.png"
                 alt=""
                 className="mr-4 inline-block h-16 w-16 object-cover rounded-full"
               />
               <div className="flex flex-col items-start">
                 <h6 className="text-base font-bold">Laila Bahar</h6>
-                <p className="text-sm text-gray-500">Designer</p>
+                <p className="text-sm text-gray-500">LONDON</p>
               </div>
             </div>
           </div>
         </div>
         {/* Text Button */}
-        <div className="flex flex-col">
+        {/* <div className="flex flex-col">
           <a href="#" className="mx-auto font-bold text-black">
             Check all reviews
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
     </div>

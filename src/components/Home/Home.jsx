@@ -12,7 +12,7 @@ const BannerData = {
   tag: "CUSTOMIZE WITH YOUR SCHEDULE",
   title: "WEDSITE-DEVELOPMENT",
   subtitle:
-    "At Luger Prime, we believe that a website should be a powerful tool that moves your business forward, rather than just a beautiful one. Our team specialised in designing one-of-a-kind websites that run smoothly and captivate your audience. We can assist you if you require a rapid, secure platform for displaying your brand or a stunning, responsive website that works on all devices. In addition to creating visually beautiful websites, we optimise them for search engines, increasing your website's ranking and visits. Want to sell a product online? Store management is simple and secure thanks to our scalable e-commerce systems. We are ready to make your vision a reality, whether you are launching a new brand or revamping an existing website. Let us work together.",
+    "At LugarPrime, we believe that a website should be a powerful tool that moves your business forward, rather than just a beautiful one. Our team specialised in designing one-of-a-kind websites that run smoothly and captivate your audience. We can assist you if you require a rapid, secure platform for displaying your brand or a stunning, responsive website that works on all devices. In addition to creating visually beautiful websites, we optimise them for search engines, increasing your website's ranking and visits. Want to sell a product online? Store management is simple and secure thanks to our scalable e-commerce systems. We are ready to make your vision a reality, whether you are launching a new brand or revamping an existing website. Let us work together.",
   link: "#",
 };
 

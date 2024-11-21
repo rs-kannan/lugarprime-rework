@@ -8,28 +8,34 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react
 const Footer = () => {
   const officeLocations = [
     {
-      country: "INDIA (HQ)",
+      country: "INDIA",
       flag: country2,
-      address: "C-106/B, Ganesh Meridian, Opp. Gujarat High Court, S. G. Highway, Ahmedabad, Gujarat, 380061",
-      phone: "+91 8000-161161"
+      address: "200/2A, Co-Operative Colony Street, Mohanur Road, Namakkal - 637001",
+      phone: "+91 9655 324 324"
     },
+    // {
+    //   country: "USA OFFICE",
+    //   flag: country1,
+    //   address: "One World Trade Center, 285 Fulton Street suite 8500, New York, NY 10007, United States.",
+    //   phone: "+1 (309)791-4105"
+    // },
     {
-      country: "USA OFFICE",
-      flag: country1,
-      address: "One World Trade Center, 285 Fulton Street suite 8500, New York, NY 10007, United States.",
-      phone: "+1 (309)791-4105"
-    },
-    {
-      country: "UK OFFICE",
+      country: "UK OFFICE (HQ)",
       flag: ukFlag,
-      address: "Level 30, The Leadenhall Building, 122 Leadenhall Street, London EC3V 4AB",
-      phone: "+44 20 3287 9060"
+      address: "46 Throwley Way, 1st Floor, Sutton, England, SM1 4AF, UK",
+      phone: "info@lugarprime.com"
     },
     {
-      country: "CANADA OFFICE",
-      flag: canadaFlag,
-      address: "151 Yonge Street, 11th Floor, Toronto, Ontario, M5C 2W7, Canada",
-      phone: "+1 (309)791-4105"
+      country: "United Kingdom (OFFICE Phase-II)",
+      flag: ukFlag,
+      address: "4 Laings Corner, Lock’s Lane, London Road, Mitcham, CR4 2JA.",
+      phone: "info@lugarprime.com"
+    },
+    {
+      country: "United Kingdom (OFFICE Phase-III)",
+      flag: ukFlag,
+      address: "Unit 9, Trader Wembley, 87 Ealing Road, Wembley, HA0 4BD.",
+      phone: "info@lugarprime.com"
     }
   ];
   return (
@@ -76,7 +82,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-8 border-t border-gray-800 pb-5">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 pt-8 border-t border-gray-800 pb-5">
           <div>
             <h3 className="text-xl font-bold mb-4">About</h3>
             <ul className="space-y-2">
@@ -121,7 +127,7 @@ const Footer = () => {
               <li><a  className="text-black hover:text-white transition-colors">VirtueMart</a></li>
             </ul>
           </div>
-        </div>
+        </div> */}
 
        
 
@@ -159,7 +165,7 @@ const Footer = () => {
        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12 border-t border-gray-800 pt-12 pb-5">
           {officeLocations.map((office, index) => (
             <div key={index} className="text-center flex flex-col items-center">
-              <img src={office.flag} alt={`${office.country} flag`} className="w-60px h-auto mb-4 rounded" />
+              {/* <img src={office.flag} alt={`${office.country} flag`} className="w-60px h-auto mb-4 rounded" /> */}
               <h3 className="text-xl font-bold flex flex-grow items-center mb-2 text-red-500">{office.country}</h3>
               <p className="text-sm mb-2">{office.address}</p>
               <p className="text-sm">{office.phone}</p>
@@ -172,7 +178,7 @@ const Footer = () => {
         <div className="pt-9 border-t border-t-black font-bold pt-3">
           <div className="text-center">
             <span className="text-sm font-bold text-black/60">
-              @copyright 2024 LugarPrime ❤️
+              LugarPrime Limited
             </span>
           </div>
         </div>

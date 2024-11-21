@@ -30,6 +30,7 @@ import Career from "./pages/Career/Career";
 import Mobilemarketing from "./pages/Digitalmarketing/Mobile-marketing";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import Aboutussection from "./components/About-us/About-us";
+import Contact from "./pages/Contact-us/Contact";
 
 const App = () => {
   return (
@@ -63,12 +64,15 @@ const App = () => {
         <Route path="/services/business-consulting/Human-resource" element={<HumanResource />} />
         <Route path="/services/business-consulting/Management"     element={<Management />} />
         <Route path="/services/business-consulting/marketing"      element={<Marketing />} />
-        <Route path="/services/business-consulting/operation"      element={<Operation />} />
+        <Route path="/services/business-consulting/operation"      element={<Operation />} /> 
         
         {/* Career page-Routes */}
-        <Route path="/Career-page" element={<Career />} />
+         {/* <Route path="/Career-page" element={<Career />} />  */}
         {/* About-Us Page-Routes */}
-        <Route path="/about-us"    element={<Aboutus />} />
+         <Route path="/about-us"    element={<Aboutus />} /> 
+        {/* Contact page-Routes */}
+         <Route path="/Contact"    element={<Contact />} /> 
+
       </Routes>
       <Aboutussection/>
       <Contactus/>

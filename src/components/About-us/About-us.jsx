@@ -3,15 +3,13 @@ import React from "react";
 function Aboutussection() {
   return (
     <div>
-       
-       
       <section class="py-24 relative xl:mr-0 lg:mr-5 mr-0">
         <div class="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
           <div class="w-full justify-start items-center xl:gap-12 gap-10 grid lg:grid-cols-2 grid-cols-1">
             <div class="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
               <div class="w-full flex-col justify-center items-start gap-8 flex">
                 <div class="flex-col justify-start lg:items-start items-center gap-4 flex">
-                  <h6 class="text-gray-400 text-base font-normal leading-relaxed">
+                  <h6 class=" text-2xl font-normal leading-relaxed">
                     About Us
                   </h6>
                   <div class="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
@@ -65,7 +63,7 @@ function Aboutussection() {
                   </div>
                 </div>
               </div>
-              <button class="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex">
+              {/* <button class="sm:w-fit w-full group px-3.5 py-2 bg-indigo-50 hover:bg-indigo-100 rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] transition-all duration-700 ease-in-out justify-center items-center flex">
                 <span class="px-1.5 text-indigo-600 text-sm font-medium leading-6 group-hover:-translate-x-0.5 transition-all duration-700 ease-in-out">
                   Read More
                 </span>
@@ -85,7 +83,7 @@ function Aboutussection() {
                     stroke-linejoin="round"
                   />
                 </svg>
-              </button>
+              </button> */}
             </div>
             <div class="w-full lg:justify-start justify-center items-start flex">
               <div class="sm:w-[564px] w-full sm:h-[646px] h-full sm:bg-gray-100 rounded-3xl sm:border border-gray-200 relative">

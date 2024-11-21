@@ -17,7 +17,7 @@ const Banner = ({ image, title, subtitle, link, tag, reverse }) => {
               transition={{ type: "spring", stiffness: 100, delay: 0.2 }}
               src={image}
               alt=""
-              className="w-[300px] md:w-[400px] h-full object-cover" // Updated width for smaller screens
+              className="w-[500px] md:w-[400px] h-full object-cover" // Updated width for smaller screens
             />
           </div>
           {/* Banner Text Section */}

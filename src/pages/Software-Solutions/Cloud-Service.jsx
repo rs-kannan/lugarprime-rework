@@ -25,7 +25,7 @@ const services = [
 function CloudService() {
   return (
     <div className='py-20'>
-       <section className="py-40 bg-gradient-to-r from-red-500 to-blue-900 text-primary-foreground">
+       {/* <section className="py-40 bg-gradient-to-r from-red-500 to-blue-900 text-primary-foreground">
           <div className="container mx-auto px-4">
             <div className="md:flex md:items-center md:justify-between">
               <div className="md:w-1/2 mb-10 md:mb-0">
@@ -40,10 +40,29 @@ function CloudService() {
               </div>
             </div>
           </div>
-        </section>
-
+        </section> */}
+         <main>
+       <section
+      className="min-h-screen bg-[url('../../src/assets/CS-IT.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-6 lg:px-8"
+    >
+      <div className="text-center">
+        <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-transparent bg-clip-text 
+             bg-gradient-to-r from-white via-red-0 to-white bg-[200%] animate-gradient-move font-mono">
+          Cloud Service 
+        </h1>
+        <p className="text-base sm:text-lg md:text-xl mb-8">
+          {/* We create stunning, high-performance websites that drive results for your business. */}
+        </p>
+        {/* <button className="bg-background text-foreground px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
+          Get Started
+        </button> */}
+      </div>
+       </section>
+     </main>
+ {/* space-top div */}
+<div className="py-20"></div>
         {/* Our Service */}
-        <section className="py-20">
+        {/* <section className="py-20">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">
               Our Services
@@ -63,8 +82,9 @@ function CloudService() {
               ))}
             </div>
           </div>
-        </section>
-
+        </section> */}
+{/* space-top div */}
+<div className="py-20"></div>
         {/* Section-one-start-Here */}
      <section>
       {/* Container */}
@@ -128,7 +148,7 @@ function CloudService() {
           {/* Item */}
           <div className="lg:w-1/2">
             <img
-              src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
+              src="https://media.licdn.com/dms/image/D4E12AQGZWw6FBb7g3A/article-cover_image-shrink_720_1280/0/1696951582859?e=2147483647&v=beta&t=uj5qngx1weI-FLdRFWE8JchAzAwdt0edVjskRvS6heg"
               alt=""
             />
           </div>
@@ -136,6 +156,121 @@ function CloudService() {
       </div>
     </section>
     {/* Section-one-end-Here */}
+    {/* space-top div */}
+<div className="py-20"></div>
+    {/* why and what is process */}
+    <section className=" text-gray-100">
+	<div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
+		<div>
+			<h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-900">Cloud Service</h2>
+			<p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-600"></p>
+		</div>
+		<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+			<div>
+				<h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-gray-900">What is Cloud Service ?</h3>
+				<p className="mt-3 text-lg text-gray-600">Cloud services deliver computing resources like storage, servers, databases, and software over the internet, enabling on-demand access and scalability. They eliminate the need for physical infrastructure, offering flexibility and cost efficiency.</p>
+				<div className="mt-12 space-y-12">
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leading-6 text-gray-900">On-Demand Resource Availability</h4>
+							<p className="mt-2 text-gray-600">Cloud services provide instant access to resources such as storage, computing power, and applications. Businesses can scale up or down based on demand, ensuring efficient resource utilization without upfront investments in hardware.</p>
+						</div>
+					</div>
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leading-6 text-gray-900">Data Security and Reliability</h4>
+							<p className="mt-2 text-gray-600">Cloud platforms prioritize robust data security with encryption, access controls, and regular backups. Their distributed infrastructure ensures high availability, minimizing downtime and safeguarding business continuity during unexpected events.</p>
+						</div>
+					</div>
+					<div className="flex">
+						<div className="flex-shrink-0">
+							<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+								</svg>
+							</div>
+						</div>
+						<div className="ml-4">
+							<h4 className="text-lg font-medium leading-6 text-gray-900">Cost Efficiency and Accessibility</h4>
+							<p className="mt-2 text-gray-600">By replacing physical infrastructure with subscription-based models, cloud services reduce operational costs. They also enable seamless access to data and applications from anywhere, fostering collaboration and productivity across teams.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div aria-hidden="true" className="mt-10 lg:mt-0">
+				<img src="https://www.graffiti9.com/wp-content/uploads/2019/10/Website-Banner-720x720.jpg" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
+			</div>
+		</div>
+		<div>
+			<div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
+				<div className="lg:col-start-2">
+					<h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-gray-900">Our Solution</h3>
+					<p className="mt-3 text-lg text-gray-600">Our cloud service solutions provide scalable, secure, and high-performance platforms for businesses to store, manage, and process data. We ensure flexibility, cost efficiency, and seamless access to empower your digital transformation journey.</p>
+					<div className="mt-12 space-y-12">
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leading-6 text-gray-900">Scalable Cloud Infrastructure</h4>
+								<p className="mt-2 text-gray-600">Our solutions offer on-demand scalability, allowing businesses to adjust resources based on real-time needs. Whether it’s storage, computing power, or bandwidth, we ensure optimal performance for fluctuating workloads without downtime or over-provisioning.</p>
+							</div>
+						</div>
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leading-6 text-gray-900">Enhanced Security & Compliance</h4>
+								<p className="mt-2 text-gray-600">We prioritize data protection with advanced encryption, multi-layered firewalls, and regular security audits. Our cloud solutions comply with industry regulations, ensuring your sensitive data remains secure while meeting legal and organizational standards.</p>
+							</div>
+						</div>
+						<div className="flex">
+							<div className="flex-shrink-0">
+								<div className="flex items-center justify-center w-12 h-12 rounded-md bg-red-400 text-gray-900">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" className="w-7 h-7">
+										<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+									</svg>
+								</div>
+							</div>
+							<div className="ml-4">
+								<h4 className="text-lg font-medium leading-6 text-gray-900">Seamless Integration & Management</h4>
+								<p className="mt-2 text-gray-600">Audire principes rationibus eam an, autem nominavi luptatum per te. Sumo fabulas vim eu, sonet saperet eleifend ut vix.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
+					<img src="https://img.freepik.com/premium-photo/colorful-image-laptop-with-word-i-love-screen_910054-15118.jpg" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{/* space-top div */}
+<div className="py-20"></div>
     {/* Section-Two-start-Here */}
     <section>
       {/* Container */}
@@ -144,7 +279,7 @@ function CloudService() {
         <div className="grid items-center gap-8 sm:gap-20 lg:grid-cols-2 lg:gap-5">
           <div>
             <h2 className="mb-6 max-w-2xl text-3xl font-bold md:mb-10 md:text-5xl lg:mb-12">
-              Lightning Fast Webflow Dev Made Easy
+            Here are six main functions of cPanel in cloud services
             </h2>
             {/* List */}
             <ul className="grid max-w-lg grid-cols-2 gap-4">
@@ -154,7 +289,7 @@ function CloudService() {
                   alt=""
                   className="mr-2 h-8 w-8"
                 />
-                <p className="text-sm sm:text-base">300+ UI Blocks</p>
+                <p className="text-sm sm:text-base"> Website Management</p>
               </li>
               <li className="flex items-center">
                 <img
@@ -162,7 +297,7 @@ function CloudService() {
                   alt=""
                   className="mr-2 h-8 w-8"
                 />
-                <p className="text-sm sm:text-base">Fully responsive</p>
+                <p className="text-sm sm:text-base">Email Management</p>
               </li>
               <li className="flex items-center">
                 <img
@@ -170,7 +305,7 @@ function CloudService() {
                   alt=""
                   className="mr-2 h-8 w-8"
                 />
-                <p className="text-sm sm:text-base">New UI Blocks</p>
+                <p className="text-sm sm:text-base">Resource Monitoring</p>
               </li>
               <li className="flex items-center">
                 <img
@@ -178,7 +313,7 @@ function CloudService() {
                   alt=""
                   className="mr-2 h-8 w-8"
                 />
-                <p className="text-sm sm:text-base">Just copy & paste</p>
+                <p className="text-sm sm:text-base">File Management</p>
               </li>
               <li className="flex items-center">
                 <img
@@ -186,7 +321,7 @@ function CloudService() {
                   alt=""
                   className="mr-2 h-8 w-8"
                 />
-                <p className="text-sm sm:text-base">New UI Blocks</p>
+                <p className="text-sm sm:text-base">Database Management</p>
               </li>
               <li className="flex items-center">
                 <img
@@ -194,7 +329,7 @@ function CloudService() {
                   alt=""
                   className="mr-2 h-8 w-8"
                 />
-                <p className="text-sm sm:text-base">Just copy & paste</p>
+                <p className="text-sm sm:text-base"> Security Features</p>
               </li>
             </ul>
           </div>
@@ -209,6 +344,8 @@ function CloudService() {
       </div>
     </section>
     {/* Section-two-end-Here */}
+    {/* space-top div */}
+<div className="py-20"></div>
     {/* Section-three-start-Here */}
     <section className="py-24 ">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -285,10 +422,12 @@ function CloudService() {
         </div>
       </section>
     {/* Section-three-end-Here */}
+    {/* space-top div */}
+<div className="py-20"></div>
     {/* Section-four-start-Here */}
     <section>
       {/* Container */}
-      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20 bg-lime-100 rounded-lg">
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20  rounded-lg">
         {/* Title */}
         <h2 className="mb-8 text-3xl font-bold md:mb-12 md:text-4xl lg:mb-16 lg:text-5xl">
         Dominate the web with blazing fast speed
@@ -307,11 +446,7 @@ function CloudService() {
               className="flex max-w-md rounded-md p-4 text-gray-500 border-l-4 border-black  [box-shadow:rgba(0,_0,_0,_0.05)_0px_0px_10px]"
               
             >
-              <img
-                alt=""
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
+              
               <div className="ml-4 flex flex-col">
                 <p className="font-semibold text-black">Global speed with unmatched performance</p>
                 <p className="text-sm text-gray-500">
@@ -322,11 +457,7 @@ function CloudService() {
             <a
               className="flex max-w-md rounded-md border-l-4 border-black p-4 text-gray-500 [box-shadow:rgba(0,_0,_0,_0.05)_0px_0px_10px]"
             >
-              <img
-                alt=""
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
+              
               <div className="ml-4 flex flex-col">
                 <p className="font-semibold text-black">Search engine optimization made easy</p>
                 <p className="text-sm text-gray-500">
@@ -337,11 +468,7 @@ function CloudService() {
             <a
               className="flex max-w-md rounded-md p-4  border-l-4 border-black [box-shadow:rgba(0,_0,_0,_0.05)_0px_0px_10px]"
             >
-              <img
-                alt=""
-                src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FPlaceholder%20Image.svg?alt=media&token=375a1ea3-a8b6-4d63-b975-aac8d0174074"
-                className="inline-block h-16 w-16 rounded-full object-cover"
-              />
+              
               <div className="ml-4 flex flex-col">
                 <p className="font-semibold text-black">Say hello to increased sales</p>
                 <p className="text-sm text-gray-500">
@@ -354,6 +481,8 @@ function CloudService() {
       </div>
     </section>
     {/* Section-four-end-Here */}
+    {/* space-top div */}
+<div className="py-20"></div>
     {/* Section-five-start-here */}
     <section>
       {/* Container */}
@@ -362,7 +491,7 @@ function CloudService() {
         <div className="flex flex-col gap-14 lg:gap-20">
           {/* Image */}
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2Fbg-about.png?alt=media&token=0d5ea1c5-61cf-4b0d-beab-bd023e3d9ee8"
+            src="https://www.eidosmedia.com/resources/028f-1b5fb6be1a1f-ccb088c39658-1000/format/large/eidosmedia-cloud2.png"
             alt=""
             className="w-full"
           />

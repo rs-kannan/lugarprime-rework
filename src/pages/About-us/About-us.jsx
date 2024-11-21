@@ -242,7 +242,7 @@ function Aboutus() {
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
         {/* Title */}
         <div className="mb-12 flex flex-col md:flex-row">
-          <h2 className="mb-8 text-3xl max-w-lg font-bold md:mb-12 md:text-5xl lg:mb-16">
+          <h2 className="mb-8 text-3xl max-w-lg font-bold md:mb-12 md:text-4xl lg:mb-16">
           Why LugarPrime.com?
           </h2>
           <p className="text-sm text-gray-500 max-w-lg">
@@ -251,51 +251,47 @@ function Aboutus() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* FactsCard */}
-          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-90">
             <div className="text-xl font-semibold">
               <h3>10,000+</h3>
               <p>Users</p>
             </div>
 
             <p className="mt-4 text-sm">
-              Empower your decisions with our AI-driven predictive analytics,
-              foreseeing market trends that keep you a step ahead.
+            Trusted by over 10,000 users, our platform offers seamless experiences, innovative features, and reliable support. Join a growing community of satisfied users who benefit from streamlined processes, enhanced security, and continuous improvements tailored to meet their evolving needs.
             </p>
           </div>
           {/* FactsCard */}
-          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-90">
             <div className="text-xl font-semibold">
               <h3>460+</h3>
               <p>Components</p>
             </div>
 
             <p className="mt-4 text-sm">
-              Empower your decisions with our AI-driven predictive analytics,
-              foreseeing market trends that keep you a step ahead.
+            With over 460 customizable components, this collection offers flexibility and ease for developers and designers. Each component is crafted for seamless integration, helping streamline workflows, reduce development time, and ensure consistent, high-quality UI across projects.
             </p>
           </div>
           {/* FactsCard */}
-          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-90">
             <div className="text-xl font-semibold">
               <h3>50%</h3>
               <p>Time Savings</p>
             </div>
 
             <p className="mt-4 text-sm">
-              Empower your decisions with our AI-driven predictive analytics,
-              foreseeing market trends that keep you a step ahead.
+            Achieve up to 50% time savings with streamlined processes and automated workflows, enhancing productivity and efficiency. Our solution reduces repetitive tasks, accelerates project timelines, and allows teams to focus on higher-value activities, driving faster and more effective outcomes.
             </p>
           </div>
           {/* FactsCard */}
-          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-80">
+          <div className="bg-gray-100 rounded-lg py-10 px-5 flex flex-col justify-between h-90">
             <div className="text-xl font-semibold">
               <h3>5-Star</h3>
               <p>User Satisfaction</p>
             </div>
 
             <p className="mt-4 text-sm">
-              Empower your decisions with our AI-driven predictive analytics,
-              foreseeing market trends that keep you a step ahead.
+            A 5-star user satisfaction rating reflects exceptional customer contentment, where users consistently experience high-quality service, quick responses, and seamless interactions. This rating indicates strong reliability, meeting or exceeding user expectations, and fostering loyalty through a customer-centered approach.
             </p>
           </div>
         </div>
@@ -303,93 +299,37 @@ function Aboutus() {
     </section>
     {/* SET-05-START-HERE */}
     <section>
-			{/* Container */}
-			<div className="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20">
-				{/* Component */}
-				<div className="flex flex-col items-center">
-					{/* Item */}
-					<div className="relative">
-						<div className="absolute w-1 md:w-2 bg-black h-full left-1/2 transform -translate-x-1/2"></div>
-						{/* Static Event Entry */}
-						<div className="mb-20 mt-20 flex items-center w-full">
-							<div className="w-1/2 text-right pr-5 md:pr-12">
-								<h5 className="text-lg md:text-2xl font-semibold">
-									August 2014
-								</h5>
-							</div>
-							<div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-black"></div>
-							<div className="w-1/2 pl-5 md:pl-12">
-								<h6 className="text-md md:text-xl font-semibold mb-3">
-									Started the company
-								</h6>
-								<p className="text-gray-500">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-									aliquam, purus sit amet luctus.
-								</p>
-							</div>
-						</div>
-						{/* Another Static Event Entry */}
-						<div className="mb-20 mt-20 flex items-center w-full">
-							<div className="w-1/2 text-right pr-5 md:pr-12">
-								<h5 className="text-lg md:text-2xl font-semibold">
-									September 2016
-								</h5>
-							</div>
-							<div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-black"></div>
-							<div className="w-1/2 pl-5 md:pl-12">
-								<h6 className="text-md md:text-xl font-semibold mb-3">
-									First Client
-								</h6>
-								<p className="text-gray-500">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-									aliquam, purus sit amet luctus.
-								</p>
-							</div>
-						</div>
-					</div>
-					{/* Item */}
-					<div className="relative">
-						<div className="absolute w-1 md:w-2 bg-gray-300 h-full left-1/2 transform -translate-x-1/2"></div>
-						{/* More Static Entries */}
-						<div className="mb-20 mt-20 flex items-center w-full">
-							<div className="w-1/2 text-right pr-5 md:pr-12">
-								<h5 className="text-lg md:text-2xl font-semibold text-gray-600">
-									January 2017
-								</h5>
-							</div>
-							<div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-gray-300"></div>
-							<div className="w-1/2 pl-5 md:pl-12">
-								<h6 className="text-md md:text-xl font-semibold text-gray-600 mb-3">
-									Hired our first Dev
-								</h6>
-								<p className="text-gray-500">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-									aliquam, purus sit amet luctus.
-								</p>
-							</div>
-						</div>
-						{/* And another one */}
-						<div className="mb-20 mt-20 flex items-center w-full">
-							<div className="w-1/2 text-right pr-5 md:pr-12">
-								<h5 className="text-lg md:text-2xl font-semibold text-gray-600">
-									May 2017
-								</h5>
-							</div>
-							<div className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-gray-300"></div>
-							<div className="w-1/2 pl-5 md:pl-12">
-								<h6 className="text-md md:text-xl font-semibold text-gray-600 mb-3">
-									Raised $5M
-								</h6>
-								<p className="text-gray-500">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-									aliquam, purus sit amet luctus.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+      {/* Container */}
+      <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+        <h5 className="mb-6 text-xl font-semibold md:mb-10 lg:mb-12">
+          {/* The world’s innovative companies use Flowspark */}
+        </h5>
+        <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-12 md:grid-cols-3 md:gap-6">
+          <div className="flex justify-center">
+            <img
+              src="../../src/assets/Lugar-pay.webp"
+              alt=""
+              className="inline-block"
+            />
+          </div>
+          <div className="flex justify-center">
+            <img
+              src="../../src/assets/LugarAcademy.webp"
+              alt=""
+              className="inline-block"
+            />
+          </div>
+          <div className="flex justify-center">
+            <img
+              src="../../src/assets/Lugar-Energy.webp"
+              alt=""
+              className="inline-block"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+   
     </div>
   )
 }
