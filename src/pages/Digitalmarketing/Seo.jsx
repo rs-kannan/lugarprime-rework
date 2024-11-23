@@ -239,35 +239,7 @@ function Seo() {
         </div>
       </section>
       {/* space-top div */}
-      <div className="py-20"></div>
-      {/* Two start Here */}
-      <section class="pt-10 pb-8 overflow-hidden bg-gray-100 sm:pt-16 lg:pt-24">
-        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-          <div class="max-w-2xl mx-auto text-center">
-            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-              Connect with all apps
-            </h2>
-            <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis.
-            </p>
-            <a
-              href="#"
-              title=""
-              class="inline-flex items-center justify-center px-8 py-4 text-base font-semibold text-gray-900 transition-all duration-200 border-2 border-gray-200 rounded-md mt-9 hover:bg-gray-900 hover:text-white hover:border-gray-900 focus:bg-gray-900 focus:text-white focus:border-gray-900"
-              role="button"
-            ></a>
-          </div>
-        </div>
-
-        <img
-          class="w-full min-w-full mx-auto mt-12 scale-150 max-w-7xl lg:min-w-0 lg:mt-0 lg:scale-100"
-          src="https://cdn.rareblocks.xyz/collection/celebration/images/integration/1/services-icons.png"
-          alt=""
-        />
-      </section>
-      {/* space-top div */}
-      <div className="py-20"></div>
+      <div className="py-10"></div>
       {/* Three Start Here */}
       <section className=" text-gray-100 pt-40">
         <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
@@ -280,13 +252,10 @@ function Seo() {
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
               <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-red-600">
-                what is UI & UX ?
+                what is SEO?
               </h3>
               <p className="mt-3 text-lg text-gray-600">
-                UI/UX development involves creating user-friendly digital
-                experiences by designing intuitive interfaces (UI) and
-                optimizing user interactions (UX) to ensure functionality,
-                accessibility, and satisfaction.
+              Search Engine Optimization (SEO) is the practice of improving a website's visibility on search engines like Google. It involves optimizing various elements to rank higher in search results, driving organic traffic to the site.
               </p>
               <div className="mt-12 space-y-12">
                 <div className="flex">
@@ -311,14 +280,10 @@ function Seo() {
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 text-gray-900">
                       {" "}
-                      User Interface (UI) Design
+                      On-Page SEO
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      UI design focuses on the visual aspects of a product,
-                      including layout, typography, colors, and elements like
-                      buttons and menus. The goal is to create aesthetically
-                      pleasing and consistent designs that enhance usability and
-                      reflect the brand identity.
+                    On-page SEO focuses on optimizing individual web pages to rank higher. This includes the use of relevant keywords, creating high-quality content, improving meta tags like titles and descriptions, and enhancing the user experience through mobile-friendly design and fast load times. Effective on-page SEO helps search engines understand content relevance.
                     </p>
                   </div>
                 </div>
@@ -343,14 +308,10 @@ function Seo() {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 text-gray-900">
-                      User Experience (UX) Design
+                    Off-Page SEO
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      UX design emphasizes user interaction, ensuring smooth and
-                      intuitive navigation. It involves understanding user
-                      behavior, solving pain points, and creating seamless
-                      journeys that meet user needs while achieving business
-                      objectives.
+                    Off-page SEO involves external factors that influence a website’s ranking, such as backlinks. The more high-quality links from reputable sites pointing to your content, the more authoritative your website becomes in the eyes of search engines. Building trust through social media mentions and influencer outreach also plays a key role.
                     </p>
                   </div>
                 </div>
@@ -375,14 +336,12 @@ function Seo() {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 text-gray-900">
-                      Development & Implementation
+                    Technical SEO
+
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      This stage involves translating designs into functional
-                      products using front-end and back-end technologies. It
-                      ensures responsiveness, performance optimization, and
-                      adherence to usability standards, delivering a polished
-                      and accessible experience across devices.
+                    Technical SEO refers to the backend elements of a website that improve its crawlability and indexing by search engines. This includes optimizing site structure, ensuring fast load speeds, fixing broken links, and using structured data. Technical SEO helps ensure search engines can efficiently access and interpret your content.
+
                     </p>
                   </div>
                 </div>
@@ -403,10 +362,8 @@ function Seo() {
                   Our Solution
                 </h3>
                 <p className="mt-3 text-lg text-gray-600">
-                  Our UI/UX development solutions provide tailored digital
-                  experiences by combining innovative design with user-centered
-                  functionality. We deliver scalable, accessible, and visually
-                  stunning interfaces that drive engagement and business growth.
+                Our Search Engine Optimization (SEO) solutions are designed to enhance your online visibility, drive targeted traffic, and boost conversions through tailored strategies that align with search engine algorithms and your business goals.
+
                 </p>
                 <div className="mt-12 space-y-12">
                   <div className="flex">
@@ -430,14 +387,12 @@ function Seo() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6 text-gray-900">
-                        Custom UI/UX Design Solutions
+                      Customized Strategies for Maximum Impact
+
                       </h4>
                       <p className="mt-2 text-gray-600">
-                        We craft personalized designs that align with your brand
-                        identity and target audience. From unique layouts to
-                        innovative features, our solutions are tailored to
-                        reflect your vision while enhancing user satisfaction
-                        and loyalty.
+                      We analyze your target audience, competitors, and industry trends to develop SEO strategies tailored to your business. From keyword research to on-page optimization, our approach ensures your website ranks higher and attracts quality traffic.
+
                       </p>
                     </div>
                   </div>
@@ -462,14 +417,11 @@ function Seo() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6 text-gray-900">
-                        Cross-Platform Design
+                      Technical and Content Optimization
                       </h4>
                       <p className="mt-2 text-gray-600">
-                        Our solutions ensure a consistent and responsive
-                        experience across devices, including desktops, tablets,
-                        and mobiles. By optimizing designs for all screen sizes,
-                        we help you reach and engage users seamlessly across
-                        multiple platforms.
+                      We optimize your website’s structure, speed, and mobile-friendliness while creating high-quality, keyword-rich content. These practices improve user experience and align with search engine algorithms for better rankings and engagement.
+
                       </p>
                     </div>
                   </div>
@@ -494,14 +446,10 @@ function Seo() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6 text-gray-900">
-                        Usability Enhancement
+                      Ongoing Monitoring and Improvement
                       </h4>
                       <p className="mt-2 text-gray-600">
-                        We focus on simplifying user interactions by identifying
-                        pain points and eliminating friction in navigation. Our
-                        designs enhance usability through intuitive layouts,
-                        meaningful feedback, and accessibility compliance to
-                        maximize user engagement and retention.
+                      Our team tracks your website’s performance using advanced analytics tools. We refine strategies based on real-time data, ensuring sustained growth in visibility, traffic, and conversions while keeping up with evolving SEO trends.
                       </p>
                     </div>
                   </div>
@@ -518,6 +466,34 @@ function Seo() {
           </div>
         </div>
       </section>
+       {/* space-top div */}
+       <div className="py-20"></div>      
+      <section class="py-10 bg-gradient-to-r from-fuchsia-600 to-blue-600 sm:py-16 lg:py-24">
+    <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div class="max-w-xl mx-auto text-center">
+            <h2 class="text-3xl font-bold leading-tight text-white sm:text-4xl lg:text-5xl">Create a own Digital Dashboard</h2>
+            <p class="mt-4 text-base leading-relaxed text-gray-100">A digital marketing dashboard is a centralized platform that visualizes key metrics and performance data. It streamlines analytics from various channels like SEO, social media, and email campaigns, enabling real-time tracking and data-driven decisions to optimize marketing strategies.</p>
+        </div>
+
+        <img class="w-full max-w-3xl mx-auto mt-8 rounded-lg shadow-xl sm:mt-20" src="https://cdn.rareblocks.xyz/collection/celebration/images/features/6/dashboard-screenshot.png" alt="" />
+
+        <div class="flex flex-col items-start justify-center max-w-lg px-10 mx-auto mt-8 space-y-8 lg:max-w-xl sm:px-0 sm:space-y-0 sm:flex-row sm:mt-16 sm:space-x-6 lg:space-x-12 sm:items-center">
+            <div class="flex items-center flex-1">
+                <svg class="flex-shrink-0 text-white/50 w-14 h-14" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                </svg>
+                <p class="ml-4 text-lg font-semibold leading-snug text-white">Customizable Analytics</p>
+            </div>
+
+            <div class="flex items-center flex-1">
+                <svg class="flex-shrink-0 text-white/50 w-14 h-14" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                <p class="ml-4 text-lg font-semibold leading-snug text-white">Integrated Data Sources</p>
+            </div>
+        </div>
+    </div>
+     </section>
       {/* space-top div */}
       <div className="py-20"></div>
       {/* Four Start Here */}
@@ -587,6 +563,92 @@ function Seo() {
       {/* five start here */}
       {/* space-top div */}
       <div className="py-20"></div>
+      <section>
+      <div className=" text-gray-900">
+	<div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+		<div className="max-w-3xl mx-auto text-center">
+			<h2 className="text-3xl font-extrabold sm:text-4xl">All the features you want</h2>
+			<p className="mt-4 text-lg text-gray-600"></p>
+		</div>
+		<dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Keyword Optimization</dt>
+					<dd className="mt-2 text-gray-600">Ensures targeted keywords align with search intent for better visibility.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">On-Page Optimization</dt>
+					<dd className="mt-2 text-gray-600">Improves meta tags, headers, and content for search relevance.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Technical SEO</dt>
+					<dd className="mt-2 text-gray-600">Enhances site speed, mobile-friendliness, and crawlability for optimal performance.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Content Quality</dt>
+					<dd className="mt-2 text-gray-600">Delivers engaging, valuable, and original content to boost user engagement and rankings.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Link Building</dt>
+					<dd className="mt-2 text-gray-600">Secures high-quality backlinks to increase authority and trustworthiness.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Local SEO</dt>
+					<dd className="mt-2 text-gray-600">Optimizes for local search results, including maps and reviews.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">User Experience (UX)</dt>
+					<dd className="mt-2 text-gray-600">Focuses on navigation, design, and accessibility to improve user satisfaction.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Analytics and Reporting</dt>
+					<dd className="mt-2 text-gray-600">Tracks performance, user behavior, and conversions for data-driven improvements.</dd>
+				</div>
+			</div>
+		</dl>
+	</div>
+     </div>
+      </section>
+      {/* space-top div */}
+      <div className="py-20"></div>
       <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="max-w-2xl mx-auto text-center">
@@ -594,8 +656,7 @@ function Seo() {
               How do we create success
             </h2>
             <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis.
+            Success in digital marketing comes from strategic planning, effective communication, and constant optimization to drive targeted engagement and conversions.
             </p>
           </div>
 
@@ -624,11 +685,10 @@ function Seo() {
               </div>
               <div class="ml-6">
                 <h3 class="text-lg font-semibold text-black">
-                  Create a free account
+                Understand Your Audience
                 </h3>
                 <p class="mt-4 text-base text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                Research your target market’s behaviors and preferences to create personalized, relevant content that attracts and retains them.
                 </p>
               </div>
             </li>
@@ -657,11 +717,10 @@ function Seo() {
               </div>
               <div class="ml-6">
                 <h3 class="text-lg font-semibold text-black">
-                  Build your website
+                Leverage Multi-Channel Marketing
                 </h3>
                 <p class="mt-4 text-base text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                Use various platforms like social media, SEO, email, and paid ads to reach a wider and diverse audience.
                 </p>
               </div>
             </li>
@@ -685,11 +744,10 @@ function Seo() {
               </div>
               <div class="ml-6">
                 <h3 class="text-lg font-semibold text-black">
-                  Release & launch
+                Measure and Optimize Campaigns
                 </h3>
                 <p class="mt-4 text-base text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                Track performance through analytics to refine strategies, improve ROI, and adapt to changing market trends effectively.
                 </p>
               </div>
             </li>
@@ -697,6 +755,24 @@ function Seo() {
         </div>
       </section>
       {/* six start here */}
+      {/* space-top div */}
+      <div className="py-20"></div>
+      {/* Two start Here */}
+      <section class="pt-10 pb-8 overflow-hidden bg-gray-100 sm:pt-16 lg:pt-24">
+        <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+          <div class="max-w-2xl mx-auto text-center">
+            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
+              Connect with all apps
+            </h2>
+            <p class="max-w-xl mx-auto mt-4 text-base leading-relaxed text-gray-600"> </p>
+          </div>
+        </div>
+        <img
+          class="w-full min-w-full mx-auto mt-12 scale-150 max-w-7xl lg:min-w-0 lg:mt-0 lg:scale-100"
+          src="https://cdn.rareblocks.xyz/collection/celebration/images/integration/1/services-icons.png"
+          alt=""
+        />
+      </section>
       {/* space-top div */}
       <div className="py-20"></div>
       <section class="py-10  sm:py-16 lg:py-24">
@@ -721,7 +797,7 @@ function Seo() {
                 <p class="text-xl font-semibold text-gray-900">
                   What is digital marketing?
                 </p>
-                <p class="mt-4 text-base text-gray-400">
+                <p class="mt-4 text-base text-gray-600">
                   Digital marketing promotes products or services using online
                   platforms like search engines, social media, email, and
                   websites.
@@ -737,7 +813,7 @@ function Seo() {
                 <p class="text-xl font-semibold text-gray-900">
                   Why is digital marketing important?
                 </p>
-                <p class="mt-4 text-base text-gray-400">
+                <p class="mt-4 text-base text-gray-600">
                   It helps businesses reach a global audience, improve brand
                   visibility, and drive targeted traffic, leading to better
                   conversions.
@@ -753,7 +829,7 @@ function Seo() {
                 <p class="text-xl font-semibold text-gray-900">
                   What are the key strategies in digital marketing?
                 </p>
-                <p class="mt-4 text-base text-gray-400">
+                <p class="mt-4 text-base text-gray-600">
                   Strategies include SEO, PPC advertising, content marketing,
                   social media marketing, and email campaigns tailored to
                   specific business goals.
@@ -769,7 +845,7 @@ function Seo() {
                 <p class="text-xl font-semibold text-gray-900">
                   How do you measure digital marketing success?
                 </p>
-                <p class="mt-4 text-base text-gray-400">
+                <p class="mt-4 text-base text-gray-600">
                   Success is measured using KPIs like website traffic,
                   conversion rates, click-through rates, ROI, and engagement
                   metrics across digital channels.
@@ -780,7 +856,7 @@ function Seo() {
         </div>
       </section>
       {/* seven start here */}
-      <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
+      {/* <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="text-center">
             <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
@@ -900,7 +976,7 @@ function Seo() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

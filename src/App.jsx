@@ -47,7 +47,7 @@ const App = () => {
         <Route path="/services/cloud-service"      element={<CloudService />} />
 
          {/* Digital Marketing Page-Routes*/}
-        <Route path="/services/digital-marketing"                        element={<Digitalpage />} />
+        {/* <Route path="/services/digital-marketing"                        element={<Digitalpage />} /> */}
         <Route path="/services/digital-marketing/SEO"                    element={<Seo />} />
         <Route path="/services/digital-marketing/Pay-per-click"          element={<Ppc />} />
         <Route path="/services/digital-marketing/Social-media-marketing" element={<Socialmediaclick />} />
