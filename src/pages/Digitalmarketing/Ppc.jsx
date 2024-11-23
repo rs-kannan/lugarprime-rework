@@ -235,20 +235,18 @@ function Ppc() {
         <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-900">
-              Search Engine Optimization(SEO)
+            Pay-Per-Click (PPC) 
             </h2>
             <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-600"></p>
           </div>
           <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
             <div>
               <h3 className="text-2xl font-bold tracking-tight sm:text-3xl text-red-600">
-                what is UI & UX ?
+                what is Pay-Per-Click?
               </h3>
               <p className="mt-3 text-lg text-gray-600">
-                UI/UX development involves creating user-friendly digital
-                experiences by designing intuitive interfaces (UI) and
-                optimizing user interactions (UX) to ensure functionality,
-                accessibility, and satisfaction.
+              Pay-Per-Click (PPC) is a digital advertising model where advertisers pay a fee each time their ad is clicked. It’s commonly used on search engines and 
+              social media platforms to drive targeted traffic to a website through paid advertisements.
               </p>
               <div className="mt-12 space-y-12">
                 <div className="flex">
@@ -273,14 +271,11 @@ function Ppc() {
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 text-gray-900">
                       {" "}
-                      User Interface (UI) Design
+                      Ad Auction Process
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      UI design focuses on the visual aspects of a product,
-                      including layout, typography, colors, and elements like
-                      buttons and menus. The goal is to create aesthetically
-                      pleasing and consistent designs that enhance usability and
-                      reflect the brand identity.
+                    In PPC, ads are placed through an auction system, where advertisers bid on keywords relevant to their products or services. The highest bid, combined with ad relevance and quality score, determines ad placement on search engine results pages.
+                     A well-optimized campaign ensures effective ad positioning and cost-efficiency.
                     </p>
                   </div>
                 </div>
@@ -305,14 +300,11 @@ function Ppc() {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 text-gray-900">
-                      User Experience (UX) Design
+                    Targeted Audience
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      UX design emphasizes user interaction, ensuring smooth and
-                      intuitive navigation. It involves understanding user
-                      behavior, solving pain points, and creating seamless
-                      journeys that meet user needs while achieving business
-                      objectives.
+                    PPC allows advertisers to target specific audiences based on demographics, location, interests, and search behavior. This targeting ensures that ads are shown to the right people, increasing the chances of conversion. 
+                    Advertisers can fine-tune their campaigns to reach potential customers most likely to take action
                     </p>
                   </div>
                 </div>
@@ -337,14 +329,11 @@ function Ppc() {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-medium leading-6 text-gray-900">
-                      Development & Implementation
+                    Budget Control and ROI
                     </h4>
                     <p className="mt-2 text-gray-600">
-                      This stage involves translating designs into functional
-                      products using front-end and back-end technologies. It
-                      ensures responsiveness, performance optimization, and
-                      adherence to usability standards, delivering a polished
-                      and accessible experience across devices.
+                    With PPC, advertisers have complete control over their budget, deciding how much they’re willing to spend on a daily or monthly basis. By tracking ad performance and conversions, businesses can calculate their return on investment (ROI), 
+                    optimizing their campaigns for the best possible results.
                     </p>
                   </div>
                 </div>
@@ -365,10 +354,9 @@ function Ppc() {
                   Our Solution
                 </h3>
                 <p className="mt-3 text-lg text-gray-600">
-                  Our UI/UX development solutions provide tailored digital
-                  experiences by combining innovative design with user-centered
-                  functionality. We deliver scalable, accessible, and visually
-                  stunning interfaces that drive engagement and business growth.
+                Our Pay-Per-Click (PPC) solutions help businesses drive targeted traffic, increase visibility, and achieve measurable results by creating and
+                 managing cost-effective ad campaigns on platforms like Google Ads, Bing, and social media.
+                 Engagement and business growth.
                 </p>
                 <div className="mt-12 space-y-12">
                   <div className="flex">
@@ -392,14 +380,11 @@ function Ppc() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6 text-gray-900">
-                        Custom UI/UX Design Solutions
+                      Targeted Audience Reach
                       </h4>
                       <p className="mt-2 text-gray-600">
-                        We craft personalized designs that align with your brand
-                        identity and target audience. From unique layouts to
-                        innovative features, our solutions are tailored to
-                        reflect your vision while enhancing user satisfaction
-                        and loyalty.
+                      Our PPC campaigns are designed to reach your ideal customers by leveraging precise keyword targeting, 
+                      location preferences, and audience demographics, ensuring maximum relevance and ROI.
                       </p>
                     </div>
                   </div>
@@ -424,14 +409,11 @@ function Ppc() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6 text-gray-900">
-                        Cross-Platform Design
+                      Instant Visibility and Results
                       </h4>
                       <p className="mt-2 text-gray-600">
-                        Our solutions ensure a consistent and responsive
-                        experience across devices, including desktops, tablets,
-                        and mobiles. By optimizing designs for all screen sizes,
-                        we help you reach and engage users seamlessly across
-                        multiple platforms.
+                      Unlike organic strategies, PPC provides immediate visibility on search engines and social platforms,
+                       helping your brand gain prominence and achieve quick, measurable outcomes.
                       </p>
                     </div>
                   </div>
@@ -456,14 +438,11 @@ function Ppc() {
                     </div>
                     <div className="ml-4">
                       <h4 className="text-lg font-medium leading-6 text-gray-900">
-                        Usability Enhancement
+                      Data-Driven Optimization
                       </h4>
                       <p className="mt-2 text-gray-600">
-                        We focus on simplifying user interactions by identifying
-                        pain points and eliminating friction in navigation. Our
-                        designs enhance usability through intuitive layouts,
-                        meaningful feedback, and accessibility compliance to
-                        maximize user engagement and retention.
+                      We continually monitor campaign performance, analyzing clicks, 
+                      conversions, and engagement to refine strategies and maximize efficiency, ensuring your budget is spent effectively.
                       </p>
                     </div>
                   </div>
@@ -576,17 +555,102 @@ function Ppc() {
         </div>
       </section>
       {/* five start here */}
+         {/* space-top div */}
+      <div className="py-20"></div>
+      <section>
+      <div className=" text-gray-900">
+	<div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
+		<div className="max-w-3xl mx-auto text-center">
+			<h2 className="text-3xl font-extrabold sm:text-4xl">Key Features of PPC (Pay-Per-Click)</h2>
+			<p className="mt-4 text-lg text-gray-600"></p>
+		</div>
+		<dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Cost Control</dt>
+					<dd className="mt-2 text-gray-600">Set budgets, control ad spend.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Targeted Reach</dt>
+					<dd className="mt-2 text-gray-600"> Display ads to specific demographics.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Quick Results</dt>
+					<dd className="mt-2 text-gray-600">Immediate visibility and traffic.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Performance Tracking</dt>
+					<dd className="mt-2 text-gray-600">Measure ROI with analytics.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Keyword Focus</dt>
+					<dd className="mt-2 text-gray-600">Bid for relevant keywords.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Flexibility</dt>
+					<dd className="mt-2 text-gray-600">Adjust campaigns in real-time.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Multiple Ad Formats</dt>
+					<dd className="mt-2 text-gray-600">Use text, image, or video.</dd>
+				</div>
+			</div>
+			<div className="flex">
+				<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true" className="flex-shrink-0 w-6 h-6 text-violet-400">
+					<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+				</svg>
+				<div className="ml-3">
+					<dt className="text-lg font-medium">Pay-Only-For-Clicks</dt>
+					<dd className="mt-2 text-gray-600">Cost incurred only on user engagement.</dd>
+				</div>
+			</div>
+		</dl>
+	</div>
+     </div>
+      </section>
       {/* space-top div */}
       <div className="py-20"></div>
-      <section class="py-10  sm:py-16 lg:py-24">
+      <section class="py-10 bg-gray-100 sm:py-16 lg:py-24">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="max-w-2xl mx-auto text-center">
             <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
               How do we create success
             </h2>
             <p class="max-w-lg mx-auto mt-4 text-base leading-relaxed text-gray-600">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis.
+            Success in digital marketing comes from strategic planning, effective communication, and constant optimization to drive targeted engagement and conversions.
             </p>
           </div>
 
@@ -615,11 +679,10 @@ function Ppc() {
               </div>
               <div class="ml-6">
                 <h3 class="text-lg font-semibold text-black">
-                  Create a free account
+                Understand Your Audience
                 </h3>
                 <p class="mt-4 text-base text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                Research your target market’s behaviors and preferences to create personalized, relevant content that attracts and retains them.
                 </p>
               </div>
             </li>
@@ -648,11 +711,10 @@ function Ppc() {
               </div>
               <div class="ml-6">
                 <h3 class="text-lg font-semibold text-black">
-                  Build your website
+                Leverage Multi-Channel Marketing
                 </h3>
                 <p class="mt-4 text-base text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                Use various platforms like social media, SEO, email, and paid ads to reach a wider and diverse audience.
                 </p>
               </div>
             </li>
@@ -676,18 +738,16 @@ function Ppc() {
               </div>
               <div class="ml-6">
                 <h3 class="text-lg font-semibold text-black">
-                  Release & launch
+                Measure and Optimize Campaigns
                 </h3>
                 <p class="mt-4 text-base text-gray-600">
-                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                  amet sint. Velit officia consequat duis enim velit mollit.
+                Track performance through analytics to refine strategies, improve ROI, and adapt to changing market trends effectively.
                 </p>
               </div>
             </li>
           </ul>
         </div>
       </section>
-        
       {/* space-top div */}
       <div className="py-20"></div>
       <section class="pt-10 pb-8 overflow-hidden  sm:pt-16 lg:pt-24">
