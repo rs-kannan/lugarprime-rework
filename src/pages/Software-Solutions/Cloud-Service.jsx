@@ -1,5 +1,5 @@
 import { Code, Layout, Smartphone, Globe, ChevronRight } from "lucide-react";
-
+import backgroundImage from '../../assets/CS-IT.png';
 const services = [
   {
     icon: <Code className="w-12 h-12 text-primary" />,
@@ -43,8 +43,9 @@ function CloudService() {
         </section> */}
          <main>
        <section
-      className="min-h-screen bg-[url('../../src/assets/CS-IT.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-6 lg:px-8"
-    >
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(https://res.cloudinary.com/dovhqn80g/image/upload/v1732544545/cloudservice-bg.png)` }}
+      aria-label="Mobile Application Development Section">
       <div className="text-center">
         <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-transparent bg-clip-text 
              bg-gradient-to-r from-white via-red-0 to-white bg-[200%] animate-gradient-move font-mono">

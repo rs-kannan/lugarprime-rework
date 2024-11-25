@@ -1,5 +1,5 @@
 import { Code, Layout, Smartphone, Globe, ChevronRight } from "lucide-react";
-
+import backgroundImage from '../../assets/uiux01.png';
 const services = [
   {
     icon: <Code className="w-12 h-12 text-pink-600" />,
@@ -25,63 +25,20 @@ const services = [
 function UiUx() {
   return (
     <div className="py-20">
-      {/* <section
-  className="py-40 bg-[url('../../src/assets/uiux-lp.png')] bg-cover bg-center text-primary-foreground"
->
-  <div className="container mx-auto px-4">
-    <div className="md:flex md:items-center md:justify-between">
-      <div className="md:w-1/2 mb-10 md:mb-0">
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-          Expert Web Development Solutions
-        </h1>
-        <p className="text-xl mb-8">
-          We create stunning, high-performance websites that drive results for your business.
-        </p>
-        <button className="bg-background text-foreground px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
-          Get Started
-        </button>
-      </div>
-      <div className="md:w-1/2">
-        <img src="../../src/assets/uiux-banner.png" alt="Web Development" />
-      </div>
-    </div>
-  </div>
-</section> */}
-
-       {/* <section className="py-40 bg-gradient-to-r from-red-500 to-blue-900 text-primary-foreground">
-          <div className="container mx-auto px-4">
-            <div className="md:flex md:items-center md:justify-between">
-              <div className="md:w-1/2 mb-10 md:mb-0">
-                <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">Expert Web Development Solutions</h1>
-                <p className="text-xl mb-8 ">We create stunning, high-performance websites that drive results for your business.</p>
-                <button className="bg-background text-foreground px-6 py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
-                  Get Started
-                </button>
-              </div>
-              <div className="md:w-1/2">
-                <img src="../src/assets/Banner.gif" alt="Web Development" />
-              </div>
-            </div>
-          </div>
-        </section> */}
       {/* Section-one-start-Here */}
       <main>
-       <section
-      className="min-h-screen bg-[url('../../src/assets/uiux01.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-6 lg:px-8"
+      <section
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(https://res.cloudinary.com/dovhqn80g/image/upload/v1732527191/UIux.png)` }}
+      aria-label="Mobile Application Development Section"
     >
       <div className="text-center">
-        <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-transparent bg-clip-text 
-             bg-gradient-to-r from-white via-red-00 to-white bg-[0%] animate-gradient-move font-mono">
-          UI & UX Development 
+        <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-blue-500">
+         UI / UX Development
         </h1>
-        <p className="text-base sm:text-lg md:text-xl mb-8">
-          {/* We create stunning, high-performance websites that drive results for your business. */}
-        </p>
-        {/* <button className="bg-background text-foreground px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
-          Get Started
-        </button> */}
+      
       </div>
-       </section>
+    </section>
      </main>
       {/* Section-one-End-Here */}
       {/* space-top div */}

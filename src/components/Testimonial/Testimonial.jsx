@@ -160,7 +160,7 @@ const Testimonial = () => {
             </div>
             <div className="flex flex-row items-start">
               <img
-                src="https://static-00.iconduck.com/assets.00/india-icon-512x366-r02huml4.png"
+                src="https://www.hindustantimes.com/static-content/1y/cricket-logos/teams/IND.png?2"
                 alt=""
                 className="mr-4 inline-block h-16 w-16 object-cover rounded-full"
               />
@@ -204,7 +204,7 @@ const Testimonial = () => {
             </div>
             <div className="flex flex-row items-start">
               <img
-                src="https://static-00.iconduck.com/assets.00/india-icon-512x366-r02huml4.png"
+                src="https://www.hindustantimes.com/static-content/1y/cricket-logos/teams/IND.png?2"
                 alt=""
                 className="mr-4 inline-block h-16 w-16 object-cover rounded-full"
               />

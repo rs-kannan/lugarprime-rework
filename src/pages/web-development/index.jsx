@@ -1,6 +1,6 @@
+import React, { useState } from 'react';
 import { Code, Layout, Smartphone, Globe, ChevronRight } from "lucide-react";
 import whychooseus from "../../assets/banner1.png";
-import heroimg from "../../assets/LP-Site-Asste-IT.gif"
 const services = [
   {
     icon: <Code className="w-12 h-12 text-secondary" />,
@@ -59,22 +59,22 @@ export default function WebDevelopment() {
       <main>
       <div className="min-h-screen bg-background text-foreground py-10">
       <main>
-       <section
-      className="min-h-screen  bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-6 lg:px-8"
-      style={{ backgroundImage: `url(${heroimg})` }}>
-      <div className="text-center">
-        <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-transparent bg-clip-text 
-             bg-gradient-to-r from-white via-red-00 to-white bg-[00%] animate-gradient-move font-mono">
-           WebSite Development 
-        </h1>
-        <p className="text-base sm:text-lg md:text-xl mb-8">
-          {/* We create stunning, high-performance websites that drive results for your business. */}
-        </p>
-        {/* <button className="bg-background text-foreground px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
-          Get Started
-        </button> */}
-      </div>
-       </section>
+      <section
+  className="min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-6 lg:px-8"
+  style={{
+    backgroundImage: `url(https://res.cloudinary.com/dovhqn80g/image/upload/v1732517920/webpageHerobanner.png)`,
+  }}
+>
+  <div className="text-center">
+    <h1
+      className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-transparent bg-clip-text 
+             bg-gradient-to-r from-white via-red-00 to-white bg-[00%] animate-gradient-move font-mono"
+    >
+      WebSite Development
+    </h1>
+  </div>
+</section>
+
      </main>
 </div>
 
@@ -639,7 +639,7 @@ export default function WebDevelopment() {
               </div>
               <div className="md:w-1/2">
                 <img
-                  src={whychooseus}
+                  src={'https://t4.ftcdn.net/jpg/04/95/93/39/360_F_495933948_CSYyr1o1mO5yCCDb44ulFmWSHteXR2Yn.jpg'}
                   alt="Our Team"
                   className="rounded-lg shadow-xl"
                 />

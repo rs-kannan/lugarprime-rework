@@ -1,4 +1,4 @@
-import mobileIcon from "../../assets/mobie-hb.png";
+import backgroundImage from '../../assets/MD-IT.png';
 import { Code, Layout, Smartphone, Globe, ChevronRight } from "lucide-react";
 
 const services = [
@@ -29,21 +29,22 @@ function Mobiledev() {
   return (
     <div className="py-20">
        <main>
-       <section
-      className="min-h-screen bg-[url('../../src/assets/MD-IT.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-6 lg:px-8"
-    >
-      <div className="text-center">
-        <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-blue-500">
-           Mobile Application Development 
-        </h1>
-        <p className="text-base sm:text-lg md:text-xl mb-8">
-          {/* We create stunning, high-performance websites that drive results for your business. */}
-        </p>
-        {/* <button className="bg-background text-foreground px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
-          Get Started
-        </button> */}
-      </div>
-       </section>
+       <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative">
+  <video
+    className="absolute top-0 left-0 w-full h-full object-cover"
+    src="https://res.cloudinary.com/dovhqn80g/video/upload/v1732522002/IT-MD-BG.mp4"
+    autoPlay
+    loop
+    muted
+    playsInline
+  ></video>
+  <div className="relative text-center z-10">
+    <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-white">
+      Mobile Application Development
+    </h1>
+  </div>
+</section>
+
      </main>
       {/* Header Ends-Here */}
       {/* space-top div */}
@@ -175,7 +176,7 @@ function Mobiledev() {
 					</div>
 				</div>
 				<div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
-					<img src="" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
+					<img src="https://riseuplabs.com/wp-content/uploads/2021/07/mobile-application-development-guidelines-riseuplabs.jpg" alt="" className="mx-auto rounded-lg shadow-lg bg-gray-500" />
 				</div>
 			</div>
 		</div>
@@ -895,7 +896,7 @@ function Mobiledev() {
 
               <div className="mt-5 md:mr-5 md:mt-5 pl-5">
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/flowspark-1f3e0.appspot.com/o/Tailspark%20Images%2FVector.png?alt=media&token=441fbdcd-c757-4be7-8a91-c4ef4c12d3d4"
+                  src="https://paramountbusinessdevelopment.com/wp-content/uploads/2014/01/our-process.png"
                   alt=""
                 />
               </div>

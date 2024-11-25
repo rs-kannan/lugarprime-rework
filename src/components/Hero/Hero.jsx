@@ -178,7 +178,7 @@ const Hero = () => {
       {/* Static Video Background */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src={Web}
+        src="https://res.cloudinary.com/dovhqn80g/video/upload/v1732424866/HomeHerobanner.mp4"
         autoPlay
         loop
         muted

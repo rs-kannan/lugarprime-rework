@@ -6,7 +6,7 @@ function Seo() {
       <section>
         <div
           className="relative h-screen flex items-center justify-center bg-cover bg-center"
-          style={{ backgroundImage: `url(${BgImage})` }}
+          style={{ backgroundImage: `url(https://res.cloudinary.com/dovhqn80g/image/upload/v1732547715/SEO-BG.png)` }}
         >
           <div className="absolute inset-0 bg-white bg-opacity-10"></div>{" "}
           {/* Dark overlay */}

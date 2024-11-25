@@ -1,5 +1,5 @@
 import { Code, Layout, Smartphone, Globe, ChevronRight } from "lucide-react";
-
+import backgroundImage from '../../assets/HS-IT.png';
 const services = [
   {
     icon: <Code className="w-12 h-12 text-primary" />,
@@ -42,22 +42,22 @@ function Hosting() {
           </div>
         </section> */}
          <main>
-       <section
-      className="min-h-screen bg-[url('../../src/assets/HS-IT.png')] bg-cover bg-center bg-no-repeat flex items-center justify-center px-4 sm:px-6 lg:px-8"
-    > 
-      <div className="text-center">
-        <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-white 
-              font-mono">
-           HOSTING SERVICE 
+      
+      <section className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8 relative">
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        src="https://res.cloudinary.com/dovhqn80g/video/upload/v1732531308/hostingservice-bg.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      ></video>
+      <div className="relative text-center z-10">
+        <h1 className="text-6xl sm:text-5xl md:text-7xl lg:text-8xl font-bold mb-6 text-gray-100">
+          Hosting Service
         </h1>
-        <p className="text-base sm:text-lg md:text-xl mb-8">
-          {/* We create stunning, high-performance websites that drive results for your business. */}
-        </p>
-        {/* <button className="bg-background text-foreground px-4 py-2 sm:px-6 sm:py-3 rounded-full font-semibold hover:bg-opacity-90 transition duration-300">
-          Get Started
-        </button> */}
       </div>
-       </section>
+    </section> 
      </main>
         {/* Our Service */}
         {/* <section className="py-20">

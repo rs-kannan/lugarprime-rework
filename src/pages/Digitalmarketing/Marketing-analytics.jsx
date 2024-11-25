@@ -6,7 +6,7 @@ function Marketinganalytics() {
       <section>
      <div
       className="relative h-screen flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url(${"https://media.istockphoto.com/id/1322245015/photo/pay-per-click-payment-technology-digital-marketing-internet-concept-of-virtual-screen-ppc.jpg?s=612x612&w=0&k=20&c=zYN-dPOgD1JYYDxWLfdxMubwe9qJTSvHDccWY8dxaFA="})` }}
+      style={{ backgroundImage: `url(${"https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YW5hbHl0aWNzfGVufDB8fDB8fHww"})` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Dark overlay */}
       <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white z-10 text-center">
@@ -340,7 +340,7 @@ function Marketinganalytics() {
             </div>
             <div aria-hidden="true" className="mt-10 lg:mt-0">
               <img
-                src="https://5.imimg.com/data5/NV/RH/FF/SELLER-67473100/search-engine-optimization-seo-services-.jpg"
+                src="https://img.freepik.com/premium-vector/digital-marketing-analytics-with-graphs-checklists_9975-80374.jpg?w=360"
                 alt=""
                 className="mx-auto rounded-lg shadow-lg bg-gray-500"
               />
@@ -449,7 +449,7 @@ function Marketinganalytics() {
               </div>
               <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
                 <img
-                  src="https://www.webnode.com/blog/wp-content/uploads/2019/07/1-SEO.jpg"
+                  src="https://img.freepik.com/premium-vector/colorful-line-art-illustration-various-business-marketing-analytics-including-computer-charts-graphs-checklist_1280751-58732.jpg"
                   alt=""
                   className="mx-auto rounded-lg shadow-lg bg-gray-500"
                 />
@@ -560,7 +560,7 @@ function Marketinganalytics() {
  <div className=" text-gray-900">
 <div className="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
 <div className="max-w-3xl mx-auto text-center">
- <h2 className="text-3xl font-extrabold sm:text-4xl">All the features you want</h2>
+ <h2 className="text-3xl font-extrabold sm:text-4xl">8 Features of Marketing Analytics </h2>
  <p className="mt-4 text-lg text-gray-600"></p>
 </div>
 <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
@@ -569,8 +569,8 @@ function Marketinganalytics() {
      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
    </svg>
    <div className="ml-3">
-     <dt className="text-lg font-medium">Keyword Optimization</dt>
-     <dd className="mt-2 text-gray-600">Ensures targeted keywords align with search intent for better visibility.</dd>
+     <dt className="text-lg font-medium">Customer Segmentation</dt>
+     <dd className="mt-2 text-gray-600">Groups customers by behavior, demographics, or preferences to target campaigns effectively.</dd>
    </div>
  </div>
  <div className="flex">
@@ -578,8 +578,8 @@ function Marketinganalytics() {
      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
    </svg>
    <div className="ml-3">
-     <dt className="text-lg font-medium">On-Page Optimization</dt>
-     <dd className="mt-2 text-gray-600">Improves meta tags, headers, and content for search relevance.</dd>
+     <dt className="text-lg font-medium">Campaign Performance Analysis</dt>
+     <dd className="mt-2 text-gray-600">Evaluates marketing efforts to optimize strategies and improve ROI.</dd>
    </div>
  </div>
  <div className="flex">
@@ -596,8 +596,8 @@ function Marketinganalytics() {
      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
    </svg>
    <div className="ml-3">
-     <dt className="text-lg font-medium">Content Quality</dt>
-     <dd className="mt-2 text-gray-600">Delivers engaging, valuable, and original content to boost user engagement and rankings.</dd>
+     <dt className="text-lg font-medium">Predictive Analytics</dt>
+     <dd className="mt-2 text-gray-600">Forecasts trends and customer behavior for proactive decision-making.</dd>
    </div>
  </div>
  <div className="flex">
@@ -605,8 +605,10 @@ function Marketinganalytics() {
      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
    </svg>
    <div className="ml-3">
-     <dt className="text-lg font-medium">Link Building</dt>
-     <dd className="mt-2 text-gray-600">Secures high-quality backlinks to increase authority and trustworthiness.</dd>
+     <dt className="text-lg font-medium">Channel Attribution</dt>
+     <dd className="mt-2 text-gray-600">Identifies the impact of each marketing channel on conversions.
+
+</dd>
    </div>
  </div>
  <div className="flex">
@@ -614,8 +616,11 @@ function Marketinganalytics() {
      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
    </svg>
    <div className="ml-3">
-     <dt className="text-lg font-medium">Local SEO</dt>
-     <dd className="mt-2 text-gray-600">Optimizes for local search results, including maps and reviews.</dd>
+     <dt className="text-lg font-medium">Sentiment Analysis
+     </dt>
+     <dd className="mt-2 text-gray-600">Analyzes customer emotions in feedback and social media.
+
+</dd>
    </div>
  </div>
  <div className="flex">
@@ -623,8 +628,11 @@ function Marketinganalytics() {
      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
    </svg>
    <div className="ml-3">
-     <dt className="text-lg font-medium">User Experience (UX)</dt>
-     <dd className="mt-2 text-gray-600">Focuses on navigation, design, and accessibility to improve user satisfaction.</dd>
+     <dt className="text-lg font-medium">Real-Time Data Monitoring
+     </dt>
+     <dd className="mt-2 text-gray-600">Tracks performance metrics live for timely adjustments.
+
+</dd>
    </div>
  </div>
  <div className="flex">
@@ -632,8 +640,11 @@ function Marketinganalytics() {
      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
    </svg>
    <div className="ml-3">
-     <dt className="text-lg font-medium">Analytics and Reporting</dt>
-     <dd className="mt-2 text-gray-600">Tracks performance, user behavior, and conversions for data-driven improvements.</dd>
+     <dt className="text-lg font-medium">Lead Scoring
+</dt>
+     <dd className="mt-2 text-gray-600">Prioritizes potential customers based on their likelihood to convert.
+
+</dd>
    </div>
  </div>
 </dl>
@@ -859,128 +870,7 @@ function Marketinganalytics() {
         </div>
       </section>
       
-      {/* seven start here */}
-      <section class="py-10 bg-gray-50 sm:py-16 lg:py-24">
-        <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-          <div class="text-center">
-            <h2 class="text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">
-              3,583 Customers are using Celebration
-            </h2>
-          </div>
-
-          <div class="px-5 py-8 mt-12 bg-white lg:mt-20 lg:p-16">
-            <div class="grid grid-cols-1 gap-12 lg:gap-16 sm:grid-cols-2">
-              <div class="flex items-start">
-                <svg
-                  class="flex-shrink-0 w-16 h-16 text-fuchsia-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
-                    d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-                  />
-                </svg>
-                <div class="ml-5">
-                  <h3 class="text-lg font-semibold text-black">
-                    Made for Developers
-                  </h3>
-                  <p class="mt-4 text-base text-gray-600">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex items-start">
-                <svg
-                  class="flex-shrink-0 w-16 h-16 text-fuchsia-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
-                    d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"
-                  />
-                </svg>
-                <div class="ml-5">
-                  <h3 class="text-lg font-semibold text-black">
-                    Helpful Video Tutorials
-                  </h3>
-                  <p class="mt-4 text-base text-gray-600">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex items-start">
-                <svg
-                  class="flex-shrink-0 w-16 h-16 text-fuchsia-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
-                    d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z"
-                  />
-                </svg>
-                <div class="ml-5">
-                  <h3 class="text-lg font-semibold text-black">
-                    120+ Coded Blocks
-                  </h3>
-                  <p class="mt-4 text-base text-gray-600">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </p>
-                </div>
-              </div>
-
-              <div class="flex items-start">
-                <svg
-                  class="flex-shrink-0 w-16 h-16 text-fuchsia-600"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1"
-                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                  />
-                </svg>
-                <div class="ml-5">
-                  <h3 class="text-lg font-semibold text-black">
-                    Secured Payments
-                  </h3>
-                  <p class="mt-4 text-base text-gray-600">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
-                    do amet sint. Velit officia consequat duis enim velit
-                    mollit.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    
        
 
     </div>

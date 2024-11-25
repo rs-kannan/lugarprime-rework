@@ -7,86 +7,149 @@ export const NavbarMenu = [
   {
     id: 2,
     title: "Software Development",
-    link: "/",
+    link: "#",
     dropdown: [
       {
-        title: "Web Development",
+        title: "WebSite Development",
         link: "/services/web-development",
-        description: "Top Mobile App Development Company",
-        paragraph: "Turning your app ideas into immersive mobile experiences.Our pocket- sized future - proof apps will move and react along with your users.",
+        description: "Top Web Development Services",
         technologies: ["HTML", "CSS", "JavaScript", "React"],
-        logo: "/path/to/web-development-logo.png", // Replace with actual logo path
       },
       {
-        title: "Mobile Development",
+        title: "Mobile App Development",
         link: "/services/mobile-development",
-        description: "Creating user-friendly mobile applications.",
+        description: "Top Mobile Development Services",
         technologies: ["Kotlin", "Swift", "React Native"],
-        logo: "/path/to/mobile-development-logo.png", // Replace with actual logo path
       },
       {
-        title: "UI/UX Design",
-        link: "/services/ui-ux-design",
-        description: "Designing intuitive and beautiful user interfaces.",
+        title: "UI/UX Development",
+        link: "/services/ui-ux-development",
+        description: "User-friendly UI/UX design services",
         technologies: ["Figma", "Adobe XD"],
-        logo: "/path/to/ui-ux-logo.png", // Replace with actual logo path
+      },
+      {
+        title: "Hosting Services",
+        link: "/services/hosting-service",
+        description: "Top Web Development Services",
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
+      },{
+        title: "Cloud Management",
+        link: "/services/cloud-service",
+        description: "Top Web Development Services",
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
       },
     ],
   },
   {
     id: 3,
     title: "Digital Marketing",
-    link: "/digital-marketing",
+    link: "#",
     dropdown: [
       {
-        title: "SEO Services",
-        link: "/services/seo",
-        description: "Optimizing your website to rank higher in search engines.",
-        technologies: ["Keyword Research", "On-Page SEO", "Backlinking"],
-        logo: "/path/to/seo-logo.png", // Replace with actual logo path
+        title: "Search Engine Optimization (SEO)",
+        link: "/services/digital-marketing/SEO",
+        description: "Top Web Development Services",
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
+      },
+      {
+        title: "Pay-per-Click (PPC) ",
+        link: "/services/digital-marketing/Pay-per-click",
+        description: "/services/digital-marketing/PPC",
+        technologies: ["Kotlin", "Swift", "React Native"],
       },
       {
         title: "Social Media Marketing",
-        link: "/services/social-media",
-        description: "Building brand awareness through social media platforms.",
-        technologies: ["Facebook", "Instagram", "LinkedIn", "Twitter"],
-        logo: "/path/to/social-media-logo.png", // Replace with actual logo path
+        link: "/services/digital-marketing/Social-media-marketing",
+        description: "User-friendly UI/UX design services",
+        technologies: ["Figma", "Adobe XD"],
+      },
+      {
+        title: "Content Marketing",
+        link: "/services/digital-marketing/content-marketing",
+        description: "Top Web Development Services",
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
       },
       {
         title: "Email Marketing",
-        link: "/services/email-marketing",
-        description: "Engaging your customers through targeted email campaigns.",
-        technologies: ["Mailchimp", "Constant Contact", "Campaign Monitor"],
-        logo: "/path/to/email-marketing-logo.png", // Replace with actual logo path
+        link: "/services/digital-marketing/Email-marketing",
+        description: "Top Mobile Development Services",
+        technologies: ["Kotlin", "Swift", "React Native"],
+      },
+      {
+        title: "Mobile Marketing",
+        link: "/services/digital-marketing/mobile-marketing",
+        description: "User-friendly UI/UX design services",
+        technologies: ["Figma", "Adobe XD"],
+      },{
+        title: "Marketing Analytics",
+        link: "/services/digital-marketing/marketing-analytics",
+        description: "Top Web Development Services",
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
+      },
+      {
+        title: "Affiliate Marketing",
+        link: "/services/digital-marketing/affiliate-marketing",
+        description: "Top Mobile Development Services",
+        technologies: ["Kotlin", "Swift", "React Native"],
       },
     ],
   },
   {
     id: 4,
-    title: "Consulting Services",
-    link: "/consulting",
+    title: "Business Consulting",
+    link: "#",
     dropdown: [
+      
       {
-        title: "Business Consulting",
-        link: "/services/business-consulting",
-        description: "Providing expert advice to improve business performance.",
-        technologies: ["SWOT Analysis", "Market Research", "Strategic Planning"],
-        logo: "/path/to/business-consulting-logo.png", // Replace with actual logo path
+        title: "Human Resourse (HR)",
+        link: "/services/business-consulting/Human-resource",
+        description: "User-friendly UI/UX design services",
+        technologies: ["Figma", "Adobe XD"],
+      },{
+        title: "Financial",
+        link: "/services/business-consulting/Financial",
+        description: "Top Mobile Development Services",
+        technologies: ["Kotlin", "Swift", "React Native"],
       },
       {
-        title: "IT Consulting",
-        link: "/services/it-consulting",
-        description: "Advising on how to use IT to meet business objectives.",
-        technologies: ["IT Strategy", "Systems Integration", "Cloud Solutions"],
-        logo: "/path/to/it-consulting-logo.png", // Replace with actual logo path
+        title: "Management",
+        link: "/services/business-consulting/Management",
+        description: "Top Web Development Services",
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
       },
       {
-        title: "Financial Consulting",
-        link: "/services/financial-consulting",
-        description: "Helping clients make informed financial decisions.",
-        technologies: ["Budgeting", "Forecasting", "Investment Strategies"],
-        logo: "/path/to/financial-consulting-logo.png", // Replace with actual logo path
+        title: "Marketing",
+        link: "/services/business-consulting/marketing",
+        description: "Top Mobile Development Services",
+        technologies: ["Kotlin", "Swift", "React Native"],
+      },
+      {
+        title: "Operation",
+        link: "/services/business-consulting/operation",
+        description: "User-friendly UI/UX design services",
+        technologies: ["Figma", "Adobe XD"],
+      },
+      {
+        title: "Education",
+        link: "/services/business-consulting/Education",
+        description: "Top Web Development Services",
+        technologies: ["HTML", "CSS", "JavaScript", "React"],
       },
     ],
+  },
+  {
+    id: 5,
+    title: "Career",
+    link: "/career",
+  },
+  {
+    id: 6,
+    title: "About Us",
+    link: "/about-us",
+  },
+  {
+    id: 7,
+    title: "Contact Us",
+    link: "/contact",
   },
 ];
