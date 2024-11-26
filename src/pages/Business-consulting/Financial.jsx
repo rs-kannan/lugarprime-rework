@@ -1,4 +1,5 @@
 import financial from "../../assets/HS-IT.png";
+import { Code, Layout, Smartphone, Globe, ChevronRight,ChevronsLeft } from "lucide-react";
 
 function Financial() {
   return (

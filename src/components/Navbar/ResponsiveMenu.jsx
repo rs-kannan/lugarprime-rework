@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Link } from "react-router-dom";
 import { X } from "lucide-react";
 import LP from "../../assets/LP.png";
-import { NavbarMenu } from "../../mockData/data";
+import { ResponsivenavMenu } from "../../mockData/data";
 
 // eslint-disable-next-line react/prop-types
 const ResponsiveMenu = ({ isOpen, setIsOpen }) => {
@@ -25,7 +25,6 @@ const ResponsiveMenu = ({ isOpen, setIsOpen }) => {
             onClick={() => setIsOpen(false)}
             className="fixed inset-0 bg-black z-30"
           />
-
           {/* Side Navigation */}
           <motion.div
             initial={{ x: "100%" }}
@@ -67,7 +66,7 @@ const ResponsiveMenu = ({ isOpen, setIsOpen }) => {
                 </li>
 
                 {/* Dynamic Navigation Items */}
-                {NavbarMenu.map((menuItem) => (
+                {ResponsivenavMenu.map((menuItem) => (
                   <li key={menuItem.id}>
                     <div
                       onMouseEnter={() => setActiveDropdown(menuItem.id)}
