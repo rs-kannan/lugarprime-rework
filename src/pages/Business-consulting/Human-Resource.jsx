@@ -304,31 +304,31 @@ function HumanResource() {
         <div class="flow-root mt-12 sm:mt-16">
             <div class="divide-y divide-gray--200 -my-9">
                 <div class="py-9">
-                    <p class="text-xl font-semibold text-black">How to create an account?</p>
-                    <p class="mt-3 text-base text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <p class="mt-3 text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="text-xl font-semibold text-black">What is HR consulting, and how can it benefit my business?</p>
+                    <p class="mt-3 text-base text-gray-600">HR consulting involves providing expert guidance to optimize human resource practices. Consultants can help with talent acquisition, performance management, compliance, and employee engagement, ensuring alignment with business goals. This leads to improved productivity, legal compliance, and a thriving workplace culture.</p>
+                    
                 </div>
 
                 <div class="py-9">
-                    <p class="text-xl font-semibold text-black">What payment method do you support?</p>
-                    <p class="mt-3 text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam.</p>
+                    <p class="text-xl font-semibold text-black">How do HR consultants assist with compliance and legal issues?</p>
+                    <p class="mt-3 text-base text-gray-600">HR consultants stay updated on labor laws and industry regulations. They help businesses establish compliant policies, manage risks, and address issues like workplace safety, discrimination, and disputes, protecting companies from potential legal challenges.</p>
                 </div>
 
                 <div class="py-9">
-                    <p class="text-xl font-semibold text-black">What payment method do you support?</p>
-                    <p class="mt-3 text-base text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="text-xl font-semibold text-black">Can HR consulting help improve employee retention?</p>
+                    <p class="mt-3 text-base text-gray-600">Yes, HR consultants analyze workplace culture, compensation structures, and employee engagement strategies. They develop tailored solutions, such as recognition programs, career development plans, and flexible work policies, to boost satisfaction and reduce turnover rates.</p>
                 </div>
 
                 <div class="py-9">
-                    <p class="text-xl font-semibold text-black">How do you provide support?</p>
+                    <p class="text-xl font-semibold text-black">How is technology integrated into HR consulting services?</p>
                     <p class="mt-3 text-base text-gray-600">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt <a href="#" title="" class="text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline">support@Celebration.com</a>
+                    Modern HR consulting often includes implementing HR technology like applicant tracking systems, employee engagement platforms, and performance management tools. Consultants also advise on using data analytics and AI to streamline HR processes and enhance decision-making. <a href="#" title="" class="text-blue-600 transition-all duration-200 hover:text-blue-700 focus:text-blue-700 hover:underline">info@lugarprime.com</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
-</section>
+        </section>
 
       </div>
     </div>

@@ -1,5 +1,4 @@
-import financial from "../../assets/HS-IT.png";
-import { Code, Layout, Smartphone, Globe, ChevronRight,ChevronsLeft } from "lucide-react";
+import { ChevronsLeft, ChevronsRight } from 'lucide-react';
 
 function Financial() {
   return (
@@ -7,27 +6,27 @@ function Financial() {
         {/* Hero Section */}
         <div className="w-full h-[92vh] mt-[70px] bg-gray-100 flex flex-wrap items-center relative">
           <div className="w-full md:w-1/2 flex flex-col justify-center md:pl-16 px-0">
-            <h1 className="text-white text-sm ml-[15%] font-bold w-[120px] h-7 flex items-center justify-center rounded-full mb-6 bg-gray-200 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:bg-gray-500 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+            <h1 className="text-gray-900 text-sm ml-[15%] font-bold w-[160px] h-7 flex items-center justify-center rounded-full mb-6 bg-yellow-500 ">
               <ChevronsRight className="text-black font-bold mr-1" />
-              <span>Finance</span>
+              <span>FINANCIAL</span>
               <ChevronsLeft className="text-black font-bold ml-1" />
             </h1>
 
             <h1 className="text-black text-4xl font-bold mb-4 pl-[15%]">
-              Smart Money Management
+            Driving <span className='text-blue-500'>Financial </span> Excellence and Strategic Growth
             </h1>
 
             <p className="text-gray-500 text-sm mb-6 pl-[15%]">
-              Take control of your financial future with our expert money management solutions and strategies.
-            </p>
+            Offering tailored financial consulting services to optimize budgets, enhance cash flow, and develop strategic plans that align financial performance with business objectives, ensuring sustainable growth and profitability.
+</p>
 
             <div className="pl-[15%]">
-              <button
+              {/* <button
                 type="button"
                 className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-6 py-2.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
               >
                 Start Planning
-              </button>
+              </button> */}
             </div>
           </div>
 
@@ -47,7 +46,7 @@ function Financial() {
               Master Your Financial Future
             </h1>
             <p className="text-zinc-600 mb-8 w-full mx-auto">
-              Our comprehensive money management solutions help you build wealth, protect your assets, and achieve your long-term financial goals through expert guidance and proven strategies.
+            Financial is your guide to achieving financial freedom and stability. Gain insights on budgeting, investing, and wealth management with practical tips tailored for every stage of life. Empower yourself to make informed decisions, eliminate debt, and build a secure financial future with confidence and control.
             </p>
           </div>
         </section>
