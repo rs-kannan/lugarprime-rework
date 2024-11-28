@@ -2,41 +2,35 @@ import logo from "../../assets/Lugar-Prime.png";
 import country1 from "../../assets/usa-map.webp";
 import country2 from "../../assets/India-Map-Flag.png";
 import ukFlag from "../../assets/uk-map.webp";
-import canadaFlag from "../../assets/canada-map.webp";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   const officeLocations = [
+   
+    {
+      country: "UK OFFICE (Registered Address)",
+      flag: ukFlag,
+      address: "46 Throwley Way, 1st Floor, Sutton, England, SM1 4AF, UK",
+      phone: "info@lugarprime.com"
+    },
+    {
+      country: "United Kingdom",
+      flag: ukFlag,
+      address: "4 Laings Corner, Lock’s Lane, London Road, Mitcham, CR4 2JA.",
+      phone: ""
+    },
+    {
+      country: "United Kingdom",
+      flag: ukFlag,
+      address: "Unit 9, Trader Wembley, 87 Ealing Road, Wembley, HA0 4BD.",
+      phone: ""
+    },
     {
       country: "INDIA",
       flag: country2,
       address: "200/2A, Co-Operative Colony Street, Mohanur Road, Namakkal - 637001",
       phone: "+91 9655 324 324"
     },
-    // {
-    //   country: "USA OFFICE",
-    //   flag: country1,
-    //   address: "One World Trade Center, 285 Fulton Street suite 8500, New York, NY 10007, United States.",
-    //   phone: "+1 (309)791-4105"
-    // },
-    {
-      country: "UK OFFICE (HQ)",
-      flag: ukFlag,
-      address: "46 Throwley Way, 1st Floor, Sutton, England, SM1 4AF, UK",
-      phone: "info@lugarprime.com"
-    },
-    {
-      country: "United Kingdom (OFFICE Phase-II)",
-      flag: ukFlag,
-      address: "4 Laings Corner, Lock’s Lane, London Road, Mitcham, CR4 2JA.",
-      phone: "info@lugarprime.com"
-    },
-    {
-      country: "United Kingdom (OFFICE Phase-III)",
-      flag: ukFlag,
-      address: "Unit 9, Trader Wembley, 87 Ealing Road, Wembley, HA0 4BD.",
-      phone: "info@lugarprime.com"
-    }
   ];
   return (
     <footer className="bg-transparent text-black py-12 px-[90px] border-solid border-2 border-black-100 rounded-lg">
@@ -166,8 +160,8 @@ const Footer = () => {
           {officeLocations.map((office, index) => (
             <div key={index} className="text-center flex flex-col items-center">
               {/* <img src={office.flag} alt={`${office.country} flag`} className="w-60px h-auto mb-4 rounded" /> */}
-              <h3 className="text-xl font-bold flex flex-grow items-center mb-2 text-red-500">{office.country}</h3>
-              <p className="text-sm mb-2">{office.address}</p>
+              <h3 className="text-xl font-bold flex flex-grow items-center mb-2 text-blue-700">{office.country}</h3>
+              <p className="text-sm mb-2 text-blue-900">{office.address}</p>
               <p className="text-sm">{office.phone}</p>
             </div>
           ))}

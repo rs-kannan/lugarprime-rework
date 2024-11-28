@@ -137,18 +137,18 @@ export const NavbarMenu = [
       },
     ],
   },
+  // {
+  //   id: 5,
+  //   title: "Career",
+  //   link: "/career",
+  // },
   {
     id: 5,
-    title: "Career",
-    link: "/career",
-  },
-  {
-    id: 6,
     title: "About Us",
     link: "/about-us",
   },
   {
-    id: 7,
+    id: 6,
     title: "Contact Us",
     link: "/contact",
   },

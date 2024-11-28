@@ -2,42 +2,57 @@ import { ChevronsLeft, ChevronsRight } from 'lucide-react';
 
 function HumanResource() {
   return (
-    <div>
-      <div>
+    
+     <div>
         {/* Hero Section */}
-        <div className="w-full h-[92vh] mt-[70px] bg-gray-100 flex flex-wrap items-center relative">
-          <div className="w-full md:w-1/2 flex flex-col justify-center md:pl-16 px-0">
-            <h1 className="text-gray-900 text-sm ml-[15%] font-bold w-[160px] h-7 flex items-center justify-center rounded-full mb-6 bg-yellow-500 ">
-              <ChevronsRight className="text-black font-bold mr-1" />
-              <span>HumanResource</span>
-              <ChevronsLeft className="text-black font-bold ml-1" />
-            </h1>
+        <div
+  className="w-full h-[92vh] mt-[70px] flex flex-wrap items-center relative"
+>
+  {/* Video Background */}
+  <video
+    autoPlay
+    loop
+    muted
+    className="absolute top-0 left-0 w-full h-full object-cover z-0"
+  >
+    <source src="https://res.cloudinary.com/dovhqn80g/video/upload/v1732800896/BCHB.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 
-            <h1 className="text-black text-4xl font-bold mb-4 pl-[15%]">
-            Strategic <span className='text-blue-500'>Human Resource</span>  Consulting for Business Success
-            </h1>
+  {/* Content Section */}
+  <div className="relative w-full h-full flex flex-wrap items-center z-10 bg-black/30">
+    {/* Left Section */}
+    <div className="w-full md:w-1/2 flex flex-col justify-center md:pl-16 px-0">
+      <h1 className="text-gray-900 text-sm ml-[15%] font-bold w-[160px] h-7 flex items-center justify-center rounded-full mb-6 bg-yellow-500 ">
+        <ChevronsRight className="text-black font-bold mr-1" />
+        <span>HumanResource</span>
+        <ChevronsLeft className="text-black font-bold ml-1" />
+      </h1>
 
-            <p className="text-gray-500 text-sm mb-6 pl-[15%]">
-            Expert guidance in aligning HR practices with business goals, enhancing workforce efficiency, fostering talent development, and driving organizational growth through innovative and strategic solutions.</p>
+      <h1 className="text-white text-4xl font-bold mb-4 pl-[15%]">
+        Strategic <span className="text-red-500">Human Resource</span> Consulting for Business Success
+      </h1>
 
-            <div className="pl-[15%]">
-              {/* <button
-                type="button"
-                className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-6 py-2.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
-              >
-                Start Planning
-              </button> */}
-            </div>
-          </div>
+      <p className="text-gray-300 text-sm mb-6 pl-[15%]">
+        Expert guidance in aligning HR practices with business goals, enhancing workforce efficiency, fostering talent
+        development, and driving organizational growth through innovative and strategic solutions.
+      </p>
 
-          <div className="w-full md:w-1/2 flex items-center justify-center px-4">
-            <img
-              src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png"
-              alt="Financial Planning"
-              className="max-h-[70vh] object-contain"
-            />
-          </div>
-        </div>
+      <div className="pl-[15%]"></div>
+    </div>
+
+    {/* Right Section */}
+    <div className="w-full md:w-1/2 flex items-center justify-center px-4">
+      <img
+        src="https://www.championpsi.com/wp-content/uploads/2023/01/Champion-HR-coach-benefits-desktop.jpg"
+        alt="Financial Planning"
+        className="max-h-[70vh] object-contain"
+      />
+    </div>
+  </div>
+</div>
+
+
 
         {/* Overview Section */}
         <section className="mt-[12%] mb-[8%] bg-white">
@@ -69,7 +84,7 @@ function HumanResource() {
                 <div className='pb-10'>
                 </div>
                 <a className="inline-flex items-center w-full mb-4">
-                  <img alt="blog" src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png"
+                  <img alt="blog" src="https://res.cloudinary.com/dovhqn80g/image/upload/v1732800283/LP-LOGO.svg "
                     className="flex-shrink-0 object-cover object-center w-10 h-10 rounded-full" />
                   <span className="flex flex-col flex-grow pl-3">
                     <h2 className="text-xs font-semibold tracking-widest text-blue-600 uppercase">
@@ -82,7 +97,7 @@ function HumanResource() {
               <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2 rounded-xl">
                 <div>
                   <img className="object-cover object-center mx-auto rounded-lg" alt="hero"
-                    src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png" />
+                    src="https://www.totaljobs.com/advice/wp-content/uploads/human-resources-hr-consultant-job-description-1024x576.jpg " />
                 </div>
               </div>
             </div>
@@ -97,7 +112,7 @@ function HumanResource() {
                   <div className="relative w-full max-w-lg">
                     <div className="relative">
                       <img className="mx-auto rounded-lg object-cover object-center" alt="hero"
-                        src='https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png' />
+                        src='https://cdn-cchkmpj.nitrocdn.com/CJXGnJvCvbQYOSNVvxpLvOYcHhpJDKbH/assets/images/optimized/rev-0a95796/ossisto.com/wp-content/uploads/2023/05/What-is-HR-outsourcing.webp ' />
                     </div>
                   </div>
                 </div>
@@ -195,7 +210,7 @@ function HumanResource() {
                   <div className="relative w-full max-w-lg">
                     <div className="relative">
                       <img className="mx-auto rounded-lg object-cover object-center" alt="Financial Planning"
-                        src='https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png' />
+                        src='https://cdn-cchkmpj.nitrocdn.com/CJXGnJvCvbQYOSNVvxpLvOYcHhpJDKbH/assets/images/optimized/rev-0a95796/ossisto.com/wp-content/uploads/2023/05/What-are-the-challenges-and-risks-of-HR-outsourcing.webp' />
                     </div>
                   </div>
                 </div>
@@ -210,14 +225,14 @@ function HumanResource() {
               <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2 rounded-xl">
                 <div>
                   <img className="object-cover object-center mx-auto rounded-lg" alt="hero"
-                    src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png" />
+                    src="https://cdn-cchkmpj.nitrocdn.com/CJXGnJvCvbQYOSNVvxpLvOYcHhpJDKbH/assets/images/optimized/rev-0a95796/ossisto.com/wp-content/uploads/2023/05/What-services-does-an-outsourcing-HR-consultant-provide.webp" />
                 </div>
               </div>
               <div className="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 md:mb-0">
                 <span className="mb-8 text-xl font-bold tracking-widest text-blue-600 uppercase">  Performance Management and Development </span>
                 <p className="mb-12 text-base leading-relaxed text-gray-900">Optimize employee performance through clear goals, constructive feedback, and continuous learning opportunities. Develop programs to measure, reward, and improve productivity while addressing individual and team growth needs.</p>
                 <a className="inline-flex items-center w-full mb-4">
-                  <img alt="blog" src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png"
+                  <img alt="blog" src="https://res.cloudinary.com/dovhqn80g/image/upload/v1732800283/LP-LOGO.svg"
                     className="flex-shrink-0 object-cover object-center w-10 h-10 rounded-full" />
                   <span className="flex flex-col flex-grow pl-3">
                     <h2 className="text-xs font-semibold tracking-widest text-blue-600 uppercase">
@@ -237,7 +252,7 @@ function HumanResource() {
             <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-24">
               <div className="group sm:flex lg:items-start">
                 <div className="mb-4 shrink-0 sm:mb-0 sm:mr-4">
-                  <img className="w-full rounded-md object-cover sm:size-32" src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png" alt="Investment Strategies" />
+                  <img className="w-full rounded-md object-cover sm:size-32" src="https://s3.eu-west-1.amazonaws.com/people.com.pk/wp-content/uploads/2021/12/09194418/384b36bd149e162eecf22fb27dbb5bc6.jpg " alt="Investment Strategies" />
                 </div>
                 <div>
                   <span className="text-sm text-gray-500">November 2024</span>
@@ -253,7 +268,8 @@ function HumanResource() {
 
               <div className="group sm:flex lg:items-start">
                 <div className="mb-4 shrink-0 sm:mb-0 sm:mr-4">
-                  <img className="w-full rounded-md object-cover sm:size-32" src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png" alt="Retirement Planning" />
+                  <img className="w-full rounded-md object-cover sm:size-32" src="
+https://www.championpsi.com/wp-content/uploads/2023/01/Champion-HR-coach-benefits-desktop.jpg " />
                 </div>
                 <div>
                   <span className="text-sm text-gray-500">November 2024</span>
@@ -331,7 +347,9 @@ function HumanResource() {
         </section>
 
       </div>
-    </div>
+
+
+    
   )
 }
 export default HumanResource

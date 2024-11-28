@@ -161,13 +161,13 @@ const ContactUs = () => {
           <div className="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
             <button
               onClick={handleEmailClick}
-              className="bg-red-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-primary-dark transition duration-300"
+              className="bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-red-500 transition duration-300"
             >
               Send Email
             </button>
             <button
               onClick={handleWhatsAppClick}
-              className="bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition duration-300"
+              className="bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition duration-300"
             >
               Connect on WhatsApp
             </button>

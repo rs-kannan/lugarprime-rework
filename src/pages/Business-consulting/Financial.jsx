@@ -4,40 +4,54 @@ function Financial() {
   return (
     <div>
         {/* Hero Section */}
-        <div className="w-full h-[92vh] mt-[70px] bg-gray-100 flex flex-wrap items-center relative">
-          <div className="w-full md:w-1/2 flex flex-col justify-center md:pl-16 px-0">
-            <h1 className="text-gray-900 text-sm ml-[15%] font-bold w-[160px] h-7 flex items-center justify-center rounded-full mb-6 bg-yellow-500 ">
-              <ChevronsRight className="text-black font-bold mr-1" />
-              <span>FINANCIAL</span>
-              <ChevronsLeft className="text-black font-bold ml-1" />
-            </h1>
+         {/* Hero Section */}
+         <div
+  className="w-full h-[92vh] mt-[70px] flex flex-wrap items-center relative"
+>
+  {/* Video Background */}
+  <video
+    autoPlay
+    loop
+    muted
+    className="absolute top-0 left-0 w-full h-full object-cover z-0"
+  >
+    <source src="https://res.cloudinary.com/dovhqn80g/video/upload/v1732800896/BCHB.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
 
-            <h1 className="text-black text-4xl font-bold mb-4 pl-[15%]">
-            Driving <span className='text-blue-500'>Financial </span> Excellence and Strategic Growth
-            </h1>
+  {/* Content Section */}
+  <div className="relative w-full h-full flex flex-wrap items-center z-10 bg-black/30">
+    {/* Left Section */}
+    <div className="w-full md:w-1/2 flex flex-col justify-center md:pl-16 px-0">
+      <h1 className="text-gray-900 text-sm ml-[15%] font-bold w-[160px] h-7 flex items-center justify-center rounded-full mb-6 bg-yellow-500 ">
+        <ChevronsRight className="text-black font-bold mr-1" />
+        <span>HumanResource</span>
+        <ChevronsLeft className="text-black font-bold ml-1" />
+      </h1>
 
-            <p className="text-gray-500 text-sm mb-6 pl-[15%]">
-            Offering tailored financial consulting services to optimize budgets, enhance cash flow, and develop strategic plans that align financial performance with business objectives, ensuring sustainable growth and profitability.
-</p>
+      <h1 className="text-white text-4xl font-bold mb-4 pl-[15%]">
+      Driving <span className="text-red-500">Financial Excellence</span> and Strategic Growth
+      
+      </h1>
 
-            <div className="pl-[15%]">
-              {/* <button
-                type="button"
-                className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-6 py-2.5 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
-              >
-                Start Planning
-              </button> */}
-            </div>
-          </div>
+      <p className="text-gray-300 text-sm mb-6 pl-[15%]">
+      Offering tailored financial consulting services to optimize budgets, enhance cash flow, and develop strategic plans that align financial performance with business objectives, ensuring sustainable growth and profitability.
 
-          <div className="w-full md:w-1/2 flex items-center justify-center px-4">
-            <img
-              src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png"
-              alt="Financial Planning"
-              className="max-h-[70vh] object-contain"
-            />
-          </div>
-        </div>
+      </p>
+
+      <div className="pl-[15%]"></div>
+    </div>
+
+    {/* Right Section */}
+    <div className="w-full md:w-1/2 flex items-center justify-center px-4">
+      <img
+        src="https://img.freepik.com/free-vector/online-banking-isometric-composition-with-financial-information-operations-purple-with-glow_1284-29169.jpg?t=st=1732766154~exp=1732769754~hmac=0d2ccb94d01df0e309732b5ebb7770cbcff035d9d78dcfc50174c31d5df08120&w=826 "
+        alt="Financial Planning"
+        className="max-h-[70vh] object-contain"
+      />
+    </div>
+  </div>
+</div>
 
         {/* Overview Section */}
         <section className="mt-[12%] mb-[8%] bg-white">
@@ -55,19 +69,16 @@ function Financial() {
           <div className="container py-24">
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
               <div className="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 md:mb-0">
-                <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Wickedblocks </span>
-                <p className="mb-12 text-base leading-relaxed text-gray-500">"Something that really cooks. Alright, alright this is
-                  an oldie, but uh, it's an oldie where I come from. Alright guys, let's do some blues riff in b, watch me for
-                  the changes, and uh, try and keep up, okay. Nothing, nothing, nothing, look tell her destiny has brought you
-                  together, tell her that she's the most beautiful you have ever seen. Girls like that stuff. What, what are you
-                  doing George?"</p>
+                <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase">Financial</span>
+                <p className="mb-12 text-base leading-relaxed text-gray-500">Financial is your guide to achieving financial freedom and stability. Gain insights on budgeting, investing, and wealth management with practical tips tailored for every stage of life. Empower yourself to make informed decisions, eliminate debt, and build a secure financial future with confidence and control.
+                </p>
                 <a className="inline-flex items-center w-full mb-4">
-                  <img alt="blog" src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png"
+                  <img alt="blog" src="https://res.cloudinary.com/dovhqn80g/image/upload/v1732800283/LP-LOGO.svg"
                     className="flex-shrink-0 object-cover object-center w-10 h-10 rounded-full" />
                   <span className="flex flex-col flex-grow pl-3">
                     <h2 className="text-xs font-semibold tracking-widest text-blue-600 uppercase">
-                      Wickedblocks
-                      <span href="#" className="font-semibold text-gray-500 lg:mb-0">Acme's HR </span>
+                      LugarPrime
+                      <span href="#" className="font-semibold text-gray-500 lg:mb-0"> Financial Team </span>
                     </h2>
                   </span>
                 </a>
@@ -75,7 +86,7 @@ function Financial() {
               <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2 rounded-xl">
                 <div>
                   <img className="object-cover object-center mx-auto rounded-lg" alt="hero"
-                    src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png" />
+                    src="https://img.freepik.com/free-vector/accounting-administration-taxes-comprehensive-isometric-flowchart-with-financial-statements-files-documents-folders-cash-counting-machine_1284-26683.jpg?t=st=1732766209~exp=1732769809~hmac=2704c9532f2848e7cd2a1347689e284e40a3b0649e081d87b1a0076b521c66cf&w=826 " />
                 </div>
               </div>
             </div>
@@ -90,7 +101,7 @@ function Financial() {
                   <div className="relative w-full max-w-lg">
                     <div className="relative">
                       <img className="mx-auto rounded-lg object-cover object-center" alt="hero"
-                        src='https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png' />
+                        src='https://img.freepik.com/free-vector/financial-technology-isometric-flowchart_1284-25565.jpg?t=st=1732766238~exp=1732769838~hmac=eae97b3c3b1d32630c8273f2d4c7b01cd84d0551b030caff2756d97cd31ff232&w=826 ' />
                     </div>
                   </div>
                 </div>
@@ -100,19 +111,19 @@ function Financial() {
                   Financial Guidence
                 </span>
                 <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-gray-600 md:text-7xl lg:text-4xl">
-                  Medium length display headline.
+                Budgeting and Personal Finance Management
                 </h1>
                 <p className="mb-8 text-left text-base leading-relaxed text-gray-500">
-                  Wicked Blocks offers a wide array of both free and premium components specifically designed for Tailwind CSS.
-                  Our extensive collection features meticulously crafted Tailwind blocks that cater to various design needs and
-                  preferences.
+                Learn how to create and stick to a budget, track expenses, and save effectively to achieve financial goals.
                 </p>
                 <div className="mt-0 max-w-7xl flex-col sm:flex lg:mt-6">
                   <div className="prose-md prose">
                     <ul>
-                      <li className="text-gray-500">Incredible reason to purchase.</li>
-                      <li className="text-gray-500">Expensive feature.</li>
-                      <li className="text-gray-500">Really good feauture.</li>
+                      <li className="text-gray-500">Track income and expenses for better financial awareness.</li>
+                      <li className="text-gray-500">Set short-term and long-term savings goals.</li>
+                      <li className="text-gray-500">Create a realistic budget using the 50/30/20 rule</li>
+                      <li className="text-gray-500">Regularly review and adjust your budget to stay on track.
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -130,10 +141,11 @@ function Financial() {
                   Financial Excellence
                 </span>
                 <h1 className="mb-8 text-4xl font-bold leading-none tracking-tighter text-gray-600 md:text-7xl lg:text-4xl">
-                  Expert Financial Planning Solutions
+                Investing Basics and Strategies
                 </h1>
                 <p className="mb-8 text-left text-base leading-relaxed text-gray-500">
-                  Discover our comprehensive suite of financial management tools and advisory services designed to help you achieve your monetary goals and secure your financial future.
+                Explore investment options, risk management, and strategies to grow wealth through stocks, bonds, real estate, and more.
+
                 </p>
                 <dl className="grid grid-cols-1 gap-12 md:grid-cols-2">
                   <div>
@@ -152,21 +164,12 @@ function Financial() {
                     </dt>
                     <dd className="grow">
                       <h2 className="mb-3 text-lg font-medium tracking-tighter text-gray-600">
-                        Investment Planning
+                      Diversify investments across stocks, bonds, and real estate.
                       </h2>
                       <p className="text-base leading-relaxed text-gray-400">
-                        Strategic investment solutions tailored to your risk profile and financial goals.
+                       
                       </p>
-                      <a href="#"
-                        className="mt-6 inline-flex items-center font-semibold text-blue-500 hover:text-gray-600 md:mb-2 lg:mb-0"
-                        title="read more">
-                        Learn More
-                        <svg className="ml-2 size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
-                          fill="currentColor">
-                          <path fill="none" d="M0 0h24v24H0z"></path>
-                          <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
-                        </svg>
-                      </a>
+                
                     </dd>
                   </div>
                   <div>
@@ -185,21 +188,13 @@ function Financial() {
                     </dt>
                     <dd className="grow">
                       <h2 className="mb-3 text-lg font-medium tracking-tighter text-gray-600">
-                        Wealth Management
+                      Keep long-term goals in mind and avoid emotional decision-making.
+
                       </h2>
                       <p className="text-base leading-relaxed text-gray-400">
-                        Comprehensive wealth management services for long-term financial security.
+                      
                       </p>
-                      <a href="#"
-                        className="mt-6 inline-flex items-center font-semibold text-blue-500 hover:text-gray-600 md:mb-2 lg:mb-0"
-                        title="read more">
-                        Learn More
-                        <svg className="ml-2 size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
-                          fill="currentColor">
-                          <path fill="none" d="M0 0h24v24H0z"></path>
-                          <path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
-                        </svg>
-                      </a>
+                     
                     </dd>
                   </div>
                 </dl>
@@ -209,7 +204,8 @@ function Financial() {
                   <div className="relative w-full max-w-lg">
                     <div className="relative">
                       <img className="mx-auto rounded-lg object-cover object-center" alt="Financial Planning"
-                        src='https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png' />
+                        src='https://www.advisorkhoj.com/resources/images/articles/Importance-Budgeting-Foundation/Importance-Budgeting-Foundation.png 
+' />
                     </div>
                   </div>
                 </div>
@@ -224,23 +220,21 @@ function Financial() {
               <div className="w-full lg:w-5/6 lg:max-w-lg md:w-1/2 rounded-xl">
                 <div>
                   <img className="object-cover object-center mx-auto rounded-lg" alt="hero"
-                    src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png" />
+                    src="https://img.freepik.com/free-vector/pension-fund-typographic-header-saving-money-retirement-financial-independence-idea-economy-wealth-pension-plan-vector-illustration-cartoon-style_613284-396.jpg?t=st=1732766813~exp=1732770413~hmac=e94372ca96af4f4d34b96977d8b2bb86ccfcaa9ed7d02b3a3aa2e8a07587f832&w=1480" />
                 </div>
               </div>
               <div className="flex flex-col items-start mb-16 text-left lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 md:mb-0">
-                <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Wickedblocks </span>
-                <p className="mb-12 text-base leading-relaxed text-gray-500">"Something that really cooks. Alright, alright this is
-                  an oldie, but uh, it's an oldie where I come from. Alright guys, let's do some blues riff in b, watch me for
-                  the changes, and uh, try and keep up, okay. Nothing, nothing, nothing, look tell her destiny has brought you
-                  together, tell her that she's the most beautiful you have ever seen. Girls like that stuff. What, what are you
-                  doing George?"</p>
+                <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase">Financial</span>
+                <p className="mb-12 text-base leading-relaxed text-gray-500">Debt Management and Credit Improvement
+ Understand how to reduce debt, manage loans, and improve your credit score for better financial opportunities.
+</p>
                 <a className="inline-flex items-center w-full mb-4">
-                  <img alt="blog" src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png"
+                  <img alt="blog" src="https://res.cloudinary.com/dovhqn80g/image/upload/v1732800283/LP-LOGO.svg"
                     className="flex-shrink-0 object-cover object-center w-10 h-10 rounded-full" />
                   <span className="flex flex-col flex-grow pl-3">
                     <h2 className="text-xs font-semibold tracking-widest text-blue-600 uppercase">
-                      Wickedblocks
-                      <span href="#" className="font-semibold text-gray-500 lg:mb-0">Acme's HR </span>
+                      LugarPrime
+                      <span href="#" className="font-semibold text-gray-500 lg:mb-0"> Financial Team </span>
                     </h2>
                   </span>
                 </a>
@@ -255,34 +249,35 @@ function Financial() {
             <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-24">
               <div className="group sm:flex lg:items-start">
                 <div className="mb-4 shrink-0 sm:mb-0 sm:mr-4">
-                  <img className="w-full rounded-md object-cover sm:size-32" src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png" alt="Investment Strategies" />
+                  <img className="w-full rounded-md object-cover sm:size-32" src="https://techmanconsulting.com.np/media/2024/08/IMG_20240909_225114-1024x606.png" alt="Investment Strategies" />
                 </div>
                 <div>
                   <span className="text-sm text-gray-500">Latest Insights</span>
                   <p className="mt-3 text-lg font-medium leading-6">
                     <a href="#" className="text-xl text-gray-800 hover:text-gray-500">
-                      5 Essential Investment Strategies for 2024
+                    PwC Focuses on AI Policy Compliance
                     </a>
                   </p>
                   <p className="text mt-2 leading-normal text-gray-500">
-                    Discover the most effective investment strategies to grow and protect your wealth in today's dynamic market environment.
+                  With AI risks increasing, PwC highlights that businesses, especially CIOs, are navigating the expanding complexity of AI regulations. Compliance and managing reputational risks are top priorities as AI technology evolves
                   </p>
                 </div>
               </div>
 
               <div className="group sm:flex lg:items-start">
                 <div className="mb-4 shrink-0 sm:mb-0 sm:mr-4">
-                  <img className="w-full rounded-md object-cover sm:size-32" src="https://digitalaptech.com/wp-content/uploads/2024/03/What-is-Pay-Per-Click.png" alt="Retirement Planning" />
+                  <img className="w-full rounded-md object-cover sm:size-32" src="https://teensmeanbusiness.com/wp-content/uploads/2024/02/1.jpeg " alt="Retirement Planning" />
                 </div>
                 <div>
                   <span className="text-sm text-gray-500">Financial Planning</span>
                   <p className="mt-3 text-lg font-medium leading-6">
                     <a href="#" className="text-xl text-gray-800 hover:text-gray-500">
-                      Building Your Retirement Nest Egg: A Complete Guide
+                    Consultants Address Flat Productivity Despite Tech Advances
                     </a>
                   </p>
                   <p className="text mt-2 leading-normal text-gray-500">
-                    Learn how to create a robust retirement plan that ensures financial security and peace of mind for your future.
+                  A recent report from Accenture reveals that global productivity remains stagnant despite significant investments in technology. Consultants are being called on to bridge the gap between tech advancements and actual productivity improvements
+
                   </p>
                 </div>
               </div>
@@ -316,7 +311,7 @@ function Financial() {
           </div>
         </section>
         {/* nigth Section Start here */}
-        <section className="py-32">
+        {/* <section className="py-32">
           <div className="container flex flex-col items-center gap-16 lg:px-16">
             <div className="text-center">
               <p className="mb-6 text-xs font-medium uppercase tracking-wider">Financial Tips</p>
@@ -402,7 +397,7 @@ function Financial() {
               </a>
             </div>
           </div>
-        </section>
+        </section> */}
       </div>
   );
 }
