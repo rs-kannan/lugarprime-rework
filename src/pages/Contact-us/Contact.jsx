@@ -11,7 +11,7 @@ function Contact() {
     <div
       class="flex w-full flex-col overflow-hidden rounded-lg border border-border  md:rounded-xl lg:flex-row lg:items-center">
       <div class="w-full shrink-0 self-stretch lg:w-1/2">
-        <img src="src/assets/LP.png" alt="placeholder hero"
+        <img src="https://res.cloudinary.com/dovhqn80g/image/upload/v1732800283/LP-LOGO.svg" alt="placeholder hero"
           class="aspect-[2/2] w-full rounded-md object-cover" />
       </div>
       <div class="w-full shrink-0 px-4 py-6 md:p-8 lg:w-1/2 lg:px-16">

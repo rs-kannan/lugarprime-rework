@@ -104,7 +104,7 @@ function Aboutus() {
 
   {/* Replace svg with img */}
   <img 
-    src="src/assets/LP.png" 
+    src="https://res.cloudinary.com/dovhqn80g/image/upload/v1732800283/LP-LOGO.svg" 
     alt="Terms of Service Image" 
     className="w-[300px] h-[300px] pl-1" 
   />

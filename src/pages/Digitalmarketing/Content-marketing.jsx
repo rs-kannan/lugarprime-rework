@@ -342,7 +342,7 @@ function Contentmarketing() {
             </div>
             <div aria-hidden="true" className="mt-10 lg:mt-0">
               <img
-                src="https://www.stanventures.com/wp-content/uploads/2018/02/content-marketing-strategy.jpg"
+                src="https://api.backlinko.com/app/uploads/2019/12/the-content-marketing-funnel.png"
                 alt=""
                 className="mx-auto rounded-lg shadow-lg bg-gray-500"
               />
